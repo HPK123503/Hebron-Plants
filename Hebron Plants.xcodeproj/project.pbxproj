@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04259EC92846ECE700D3DC0E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */; };
+		0448F6932848C59200569532 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6922848C59200569532 /* ImageClassifier.swift */; };
+		0448F6952848C5DB00569532 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6942848C5DB00569532 /* Classifier.swift */; };
+		0448F6972848C64D00569532 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6962848C64D00569532 /* ImagePicker.swift */; };
+		0448F6A12848D99600569532 /* Testing 1 copy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */; };
+		04E7299128429FB1009C9646 /* Hebron_PlantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */; };
+		04E7299328429FB1009C9646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7299228429FB1009C9646 /* ContentView.swift */; };
+		04E7299528429FB2009C9646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7299428429FB2009C9646 /* Assets.xcassets */; };
+		04E7299828429FB2009C9646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7299728429FB2009C9646 /* Preview Assets.xcassets */; };
+		04E729A32842A05F009C9646 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A22842A05F009C9646 /* TabBar.swift */; };
+		04E729A52842A085009C9646 /* DirectoryTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A42842A085009C9646 /* DirectoryTabBarView.swift */; };
+		04E729A72842A0B1009C9646 /* IdentifyTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */; };
+		04E729A92842A0DC009C9646 /* Plant Descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A82842A0DC009C9646 /* Plant Descriptions.swift */; };
+		04E729AB2842A118009C9646 /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AA2842A118009C9646 /* PlantCardView.swift */; };
+		04E729AD2842A144009C9646 /* PlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AC2842A144009C9646 /* PlantList.swift */; };
+		04E729AF2842A16C009C9646 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AE2842A16C009C9646 /* PlantDetailView.swift */; };
+		04E729B92842A484009C9646 /* IdentifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729B82842A484009C9646 /* IdentifyView.swift */; };
+		04F8DA2128442CCC00768592 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8DA2028442CCC00768592 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0448F6922848C59200569532 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		0448F6942848C5DB00569532 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		0448F6962848C64D00569532 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Testing 1 copy.mlmodel"; sourceTree = "<group>"; };
+		04E7298D28429FB1009C9646 /* Hebron Plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hebron Plants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hebron_PlantsApp.swift; sourceTree = "<group>"; };
+		04E7299228429FB1009C9646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E7299428429FB2009C9646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E7299728429FB2009C9646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04E729A22842A05F009C9646 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		04E729A42842A085009C9646 /* DirectoryTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTabBarView.swift; sourceTree = "<group>"; };
+		04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyTabBarView.swift; sourceTree = "<group>"; };
+		04E729A82842A0DC009C9646 /* Plant Descriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant Descriptions.swift"; sourceTree = "<group>"; };
+		04E729AA2842A118009C9646 /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
+		04E729AC2842A144009C9646 /* PlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantList.swift; sourceTree = "<group>"; };
+		04E729AE2842A16C009C9646 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		04E729B82842A484009C9646 /* IdentifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyView.swift; sourceTree = "<group>"; };
+		04F8DA2028442CCC00768592 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E7298A28429FB1009C9646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448F6982848D15A00569532 /* Plant Descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				04E729A82842A0DC009C9646 /* Plant Descriptions.swift */,
+			);
+			path = "Plant Descriptions";
+			sourceTree = "<group>";
+		};
+		0448F6992848D17800569532 /* Plant Detailed View */ = {
+			isa = PBXGroup;
+			children = (
+				04E729AE2842A16C009C9646 /* PlantDetailView.swift */,
+			);
+			path = "Plant Detailed View";
+			sourceTree = "<group>";
+		};
+		04E7298428429FB1009C9646 = {
+			isa = PBXGroup;
+			children = (
+				0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */,
+				04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */,
+				0448F6982848D15A00569532 /* Plant Descriptions */,
+				0448F6992848D17800569532 /* Plant Detailed View */,
+				04E729A02842A00B009C9646 /* Plant Screen View */,
+				04E729A12842A02A009C9646 /* Important Views */,
+				04E7298F28429FB1009C9646 /* Hebron Plants */,
+				04E7298E28429FB1009C9646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E7298E28429FB1009C9646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E7298D28429FB1009C9646 /* Hebron Plants.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E7298F28429FB1009C9646 /* Hebron Plants */ = {
+			isa = PBXGroup;
+			children = (
+				04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */,
+				04E7299228429FB1009C9646 /* ContentView.swift */,
+				04E7299428429FB2009C9646 /* Assets.xcassets */,
+				04E7299628429FB2009C9646 /* Preview Content */,
+				0448F6922848C59200569532 /* ImageClassifier.swift */,
+				0448F6962848C64D00569532 /* ImagePicker.swift */,
+				0448F6942848C5DB00569532 /* Classifier.swift */,
+			);
+			path = "Hebron Plants";
+			sourceTree = "<group>";
+		};
+		04E7299628429FB2009C9646 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04E7299728429FB2009C9646 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04E729A02842A00B009C9646 /* Plant Screen View */ = {
+			isa = PBXGroup;
+			children = (
+				04E729AA2842A118009C9646 /* PlantCardView.swift */,
+				04E729AC2842A144009C9646 /* PlantList.swift */,
+			);
+			path = "Plant Screen View";
+			sourceTree = "<group>";
+		};
+		04E729A12842A02A009C9646 /* Important Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E729A22842A05F009C9646 /* TabBar.swift */,
+				04E729A42842A085009C9646 /* DirectoryTabBarView.swift */,
+				04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */,
+				04E729B82842A484009C9646 /* IdentifyView.swift */,
+				04F8DA2028442CCC00768592 /* ProfileView.swift */,
+			);
+			path = "Important Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E7298C28429FB1009C9646 /* Hebron Plants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E7299B28429FB2009C9646 /* Build configuration list for PBXNativeTarget "Hebron Plants" */;
+			buildPhases = (
+				04E7298928429FB1009C9646 /* Sources */,
+				04E7298A28429FB1009C9646 /* Frameworks */,
+				04E7298B28429FB1009C9646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hebron Plants";
+			productName = "Hebron Plants";
+			productReference = 04E7298D28429FB1009C9646 /* Hebron Plants.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E7298528429FB1009C9646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					04E7298C28429FB1009C9646 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 04E7298828429FB1009C9646 /* Build configuration list for PBXProject "Hebron Plants" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E7298428429FB1009C9646;
+			productRefGroup = 04E7298E28429FB1009C9646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E7298C28429FB1009C9646 /* Hebron Plants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E7298B28429FB1009C9646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04259EC92846ECE700D3DC0E /* Launch Screen.storyboard in Resources */,
+				04E7299828429FB2009C9646 /* Preview Assets.xcassets in Resources */,
+				04E7299528429FB2009C9646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E7298928429FB1009C9646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448F6952848C5DB00569532 /* Classifier.swift in Sources */,
+				04E729AB2842A118009C9646 /* PlantCardView.swift in Sources */,
+				0448F6A12848D99600569532 /* Testing 1 copy.mlmodel in Sources */,
+				04E729A32842A05F009C9646 /* TabBar.swift in Sources */,
+				04E729A52842A085009C9646 /* DirectoryTabBarView.swift in Sources */,
+				04E7299328429FB1009C9646 /* ContentView.swift in Sources */,
+				04E729AF2842A16C009C9646 /* PlantDetailView.swift in Sources */,
+				04E729B92842A484009C9646 /* IdentifyView.swift in Sources */,
+				0448F6932848C59200569532 /* ImageClassifier.swift in Sources */,
+				04E729A72842A0B1009C9646 /* IdentifyTabBarView.swift in Sources */,
+				04E729AD2842A144009C9646 /* PlantList.swift in Sources */,
+				04E7299128429FB1009C9646 /* Hebron_PlantsApp.swift in Sources */,
+				0448F6972848C64D00569532 /* ImagePicker.swift in Sources */,
+				04E729A92842A0DC009C9646 /* Plant Descriptions.swift in Sources */,
+				04F8DA2128442CCC00768592 /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04E7299928429FB2009C9646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E7299A28429FB2009C9646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E7299C28429FB2009C9646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hebron Plants/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hebron Plants needs your permission to access the camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saladel.Hebron-Plants";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E7299D28429FB2009C9646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hebron Plants/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hebron Plants needs your permission to access the camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saladel.Hebron-Plants";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E7298828429FB1009C9646 /* Build configuration list for PBXProject "Hebron Plants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E7299928429FB2009C9646 /* Debug */,
+				04E7299A28429FB2009C9646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E7299B28429FB2009C9646 /* Build configuration list for PBXNativeTarget "Hebron Plants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E7299C28429FB2009C9646 /* Debug */,
+				04E7299D28429FB2009C9646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E7298528429FB1009C9646 /* Project object */;
+}
