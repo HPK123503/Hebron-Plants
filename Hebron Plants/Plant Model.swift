@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct Plant: Identifiable {
-    let id = UUID()
+    let id = UUID().uuidString
     let image: Image
     let name: String
     let commonName: String
@@ -24,7 +24,7 @@ extension Plant {
         
         // 1. Acacia auriculiformis Cunn. ex Benth.
         Plant(
-            image: Image(systemName: "wp"),
+            image: Image("acacia"),
             name: "Acacia auriculiformis Cunn. ex Benth.",
             commonName: "Northern black wattle, Ear pod wattle.",
             family: "Fabaceae (Mimosoideae).",
@@ -38,7 +38,7 @@ The fruits are flat, dehiscent, somewhat woody pod, 6.5 cm long, 1.5 cm wide, st
             ),
         
         // 2. Adenanthera pavonina L.
-        Plant(image: Image(systemName: "wp"),
+        Plant(image: Image("ade"),
               name: "Adenanthera pavonina L.",
               commonName: "Red sandalwood, Sandal beadtree.",
               family: "Fabaceae (Mimosoideae)",
@@ -246,7 +246,7 @@ Flowers bell-shaped, up to 7 cm long, distinctive, pendulous, solitary, with lar
             origin: "Native to tropical America, grown in other tropical zones.",
             location: "Canaanland",
             botanicalDescription: """
-" Lipstick plant is an evergreen shrub or small tree up to 6(-8) m tall; trunk up to 10 cm in diameter; bark pale to dark brown, tough and smooth. Leaves arranged spirally, simple and entire. Inflorescence a terminal, 8-50 flowered panicle or corymb. The plant bears pink bisexual, regular, fragrant flowers. Fruit a globose or broadly to elongated, spiny red ovoid capsule 2-4.5 cm x 2-4 cm, densely clothed with long bristles, two-valved, with numerous seeds. Seeds obovoid and angular, bright orange - red fleshy seedcoat. It is valued for its colorant.
+Lipstick plant is an evergreen shrub or small tree up to 6(-8) m tall; trunk up to 10 cm in diameter; bark pale to dark brown, tough and smooth. Leaves arranged spirally, simple and entire. Inflorescence a terminal, 8-50 flowered panicle or corymb. The plant bears pink bisexual, regular, fragrant flowers. Fruit a globose or broadly to elongated, spiny red ovoid capsule 2-4.5 cm x 2-4 cm, densely clothed with long bristles, two-valved, with numerous seeds. Seeds obovoid and angular, bright orange - red fleshy seedcoat. It is valued for its colorant.
 """
         ),
         
@@ -274,9 +274,9 @@ Flowers bell-shaped, up to 7 cm long, distinctive, pendulous, solitary, with lar
             origin: "Native to South America from Brazil west to Peru and south to southern Argentina, exotic to other regions.",
             location: " ",
             botanicalDescription: """
-    Bougainvillea are thorny, woody vines growing anywhere from 1-12 meters tall, scrambling over other plants with their spiky thorns. The thorns are tipped with a black, waxy substance. They are evergreen where rainfall occurs all year or deciduous if there is a dry season. The leaves are alternate, simple ovate-acuminate, 4-13 cm long and 2-6 cm broad. The actual flower of the plant is small and generally white, but each cluster of three flowers is surrounded by three or six bracts with the bright colors associated with the plant, including pink, magenta, purple red, orange, white, or yellow. Bougainvillea glabra is sometimes referred to as "paper flower" because the bracts are thin and papery, The fruit is a narrow five-lobed achene. The flower colour ranges from pink, purple, red, yellow to multi-coloured forms.
+Bougainvillea are thorny, woody vines growing anywhere from 1-12 meters tall, scrambling over other plants with their spiky thorns. The thorns are tipped with a black, waxy substance. They are evergreen where rainfall occurs all year or deciduous if there is a dry season. The leaves are alternate, simple ovate-acuminate, 4-13 cm long and 2-6 cm broad. The actual flower of the plant is small and generally white, but each cluster of three flowers is surrounded by three or six bracts with the bright colors associated with the plant, including pink, magenta, purple red, orange, white, or yellow. Bougainvillea glabra is sometimes referred to as "paper flower" because the bracts are thin and papery, The fruit is a narrow five-lobed achene. The flower colour ranges from pink, purple, red, yellow to multi-coloured forms.
                   
-    The name Bougainvillea comes from Louis Antoine de Bougainville, a French navigator and military commander who was the first European to take note of the plant, in Brazil, in 1768.
+The name Bougainvillea comes from Louis Antoine de Bougainville, a French navigator and military commander who was the first European to take note of the plant, in Brazil, in 1768.
 """
 ),
         

@@ -19,7 +19,7 @@
 		04E729A32842A05F009C9646 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A22842A05F009C9646 /* TabBar.swift */; };
 		04E729A52842A085009C9646 /* DirectoryTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A42842A085009C9646 /* DirectoryTabBarView.swift */; };
 		04E729A72842A0B1009C9646 /* IdentifyTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */; };
-		04E729A92842A0DC009C9646 /* Plant Descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A82842A0DC009C9646 /* Plant Descriptions.swift */; };
+		04E729A92842A0DC009C9646 /* Plant Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729A82842A0DC009C9646 /* Plant Model.swift */; };
 		04E729AB2842A118009C9646 /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AA2842A118009C9646 /* PlantCardView.swift */; };
 		04E729AD2842A144009C9646 /* PlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AC2842A144009C9646 /* PlantList.swift */; };
 		04E729AF2842A16C009C9646 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E729AE2842A16C009C9646 /* PlantDetailView.swift */; };
@@ -41,7 +41,7 @@
 		04E729A22842A05F009C9646 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		04E729A42842A085009C9646 /* DirectoryTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTabBarView.swift; sourceTree = "<group>"; };
 		04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyTabBarView.swift; sourceTree = "<group>"; };
-		04E729A82842A0DC009C9646 /* Plant Descriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant Descriptions.swift"; sourceTree = "<group>"; };
+		04E729A82842A0DC009C9646 /* Plant Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant Model.swift"; sourceTree = "<group>"; };
 		04E729AA2842A118009C9646 /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
 		04E729AC2842A144009C9646 /* PlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantList.swift; sourceTree = "<group>"; };
 		04E729AE2842A16C009C9646 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
@@ -60,31 +60,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0448F6982848D15A00569532 /* Plant Descriptions */ = {
-			isa = PBXGroup;
-			children = (
-				04E729A82842A0DC009C9646 /* Plant Descriptions.swift */,
-			);
-			path = "Plant Descriptions";
-			sourceTree = "<group>";
-		};
-		0448F6992848D17800569532 /* Plant Detailed View */ = {
+		044133CD2858C81800C5C02D /* Directory View */ = {
 			isa = PBXGroup;
 			children = (
 				04E729AE2842A16C009C9646 /* PlantDetailView.swift */,
+				04E729AA2842A118009C9646 /* PlantCardView.swift */,
+				04E729AC2842A144009C9646 /* PlantList.swift */,
 			);
-			path = "Plant Detailed View";
+			path = "Directory View";
+			sourceTree = "<group>";
+		};
+		044133CE2858C82700C5C02D /* Identify View */ = {
+			isa = PBXGroup;
+			children = (
+				04E729B82842A484009C9646 /* IdentifyView.swift */,
+				0448F6922848C59200569532 /* ImageClassifier.swift */,
+				0448F6962848C64D00569532 /* ImagePicker.swift */,
+				0448F6942848C5DB00569532 /* Classifier.swift */,
+				04F8DA2028442CCC00768592 /* ProfileView.swift */,
+			);
+			path = "Identify View";
+			sourceTree = "<group>";
+		};
+		044133CF2858C8F500C5C02D /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				04E729A22842A05F009C9646 /* TabBar.swift */,
+				04E729A42842A085009C9646 /* DirectoryTabBarView.swift */,
+				04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */,
+			);
+			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
 		04E7298428429FB1009C9646 = {
 			isa = PBXGroup;
 			children = (
-				0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */,
-				04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */,
-				0448F6982848D15A00569532 /* Plant Descriptions */,
-				0448F6992848D17800569532 /* Plant Detailed View */,
-				04E729A02842A00B009C9646 /* Plant Screen View */,
-				04E729A12842A02A009C9646 /* Important Views */,
 				04E7298F28429FB1009C9646 /* Hebron Plants */,
 				04E7298E28429FB1009C9646 /* Products */,
 			);
@@ -101,13 +111,16 @@
 		04E7298F28429FB1009C9646 /* Hebron Plants */ = {
 			isa = PBXGroup;
 			children = (
+				04E7299628429FB2009C9646 /* Preview Content */,
+				04E7299428429FB2009C9646 /* Assets.xcassets */,
+				04E729A82842A0DC009C9646 /* Plant Model.swift */,
+				0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */,
+				04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */,
 				04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */,
 				04E7299228429FB1009C9646 /* ContentView.swift */,
-				04E7299428429FB2009C9646 /* Assets.xcassets */,
-				04E7299628429FB2009C9646 /* Preview Content */,
-				0448F6922848C59200569532 /* ImageClassifier.swift */,
-				0448F6962848C64D00569532 /* ImagePicker.swift */,
-				0448F6942848C5DB00569532 /* Classifier.swift */,
+				044133CF2858C8F500C5C02D /* Tab Bar */,
+				044133CE2858C82700C5C02D /* Identify View */,
+				044133CD2858C81800C5C02D /* Directory View */,
 			);
 			path = "Hebron Plants";
 			sourceTree = "<group>";
@@ -118,27 +131,6 @@
 				04E7299728429FB2009C9646 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		04E729A02842A00B009C9646 /* Plant Screen View */ = {
-			isa = PBXGroup;
-			children = (
-				04E729AA2842A118009C9646 /* PlantCardView.swift */,
-				04E729AC2842A144009C9646 /* PlantList.swift */,
-			);
-			path = "Plant Screen View";
-			sourceTree = "<group>";
-		};
-		04E729A12842A02A009C9646 /* Important Views */ = {
-			isa = PBXGroup;
-			children = (
-				04E729A22842A05F009C9646 /* TabBar.swift */,
-				04E729A42842A085009C9646 /* DirectoryTabBarView.swift */,
-				04E729A62842A0B1009C9646 /* IdentifyTabBarView.swift */,
-				04E729B82842A484009C9646 /* IdentifyView.swift */,
-				04F8DA2028442CCC00768592 /* ProfileView.swift */,
-			);
-			path = "Important Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +217,7 @@
 				04E729AD2842A144009C9646 /* PlantList.swift in Sources */,
 				04E7299128429FB1009C9646 /* Hebron_PlantsApp.swift in Sources */,
 				0448F6972848C64D00569532 /* ImagePicker.swift in Sources */,
-				04E729A92842A0DC009C9646 /* Plant Descriptions.swift in Sources */,
+				04E729A92842A0DC009C9646 /* Plant Model.swift in Sources */,
 				04F8DA2128442CCC00768592 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

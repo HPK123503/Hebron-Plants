@@ -63,11 +63,11 @@ struct IdentifyView: View {
                 .padding()
                 
                 
-                
+              // End of VStack
             }
             
             
-            // From Gallery and Camera Buttons
+            // Photos and Camera Buttons
             HStack(alignment: .center, spacing: 9) {
                 
                 // From Photos Button
