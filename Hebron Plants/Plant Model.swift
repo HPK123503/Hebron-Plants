@@ -31,11 +31,29 @@ extension Plant {
             origin: "Native to Australia, Papua New Guinea and Indonesia. It is cultivated widely in tropics.",
             location: "Library, Chapel, Deborah and Mary Hall",
             botanicalDescription: """
-A large shrub or medium-sized, evergreen tree, usually 8-20 m tall, on good soil sites up to 35m. Bark grey or brown, longitudinally fissured, leaves (phyllodes) are 8-20 cm long, glabrous and curved, with 3 prominent nerves. Flowers are bisexual, creamy yellow, scented, in up to 8.5 cm long spikes.
+A large shrub or medium-sized, evergreen tree, usually 8-20m tall, on good soil sites up to 35m. Bark grey or brown, longitudinally fissured, leaves (phyllodes) are 8-20cm long, glabrous and curved, with 3 prominent nerves. Flowers are bisexual, creamy yellow, scented, in up to 8.5cm long spikes.
 
-The fruits are flat, dehiscent, somewhat woody pod, 6.5 cm long, 1.5 cm wide, strongly curved and with undulate margins. The seed are shiny black or brown, encircled by a long, red or yellow funicle. The yellow flower spikes can be found on individual trees throughout the year but there is usually a distinct peak flowering season which may vary considerably with location. This species can grow under even the most difficult conditions in the tropics.
+The fruits are flat, dehiscent, somewhat woody pod, 6.5cm long, 1.5cm wide, strongly curved and with undulate margins. The seed are shiny black or brown, encircled by a long, red or yellow funicle. The yellow flower spikes can be found on individual trees throughout the year but there is usually a distinct peak flowering season which may vary considerably with location. This species can grow under even the most difficult conditions in the tropics.
 """
             ),
+        
+        // Acalypha wilkesiana
+        Plant(
+            image: Image("acacia"),
+            name: "Acalypha wilkesiana",
+            commonName: "Starburr, Beefsteak plant, Red acalypha, copperleaf, Jacob’s coat, Fijian fire plant, Dangunro-gogoro, kaashinyaawo.",
+            family: "Euphorbiaceae",
+            origin: "Native to Fiji and neighbouring South Pacific islands.",
+            location: "Eagle's nest, ALDC.",
+            botanicalDescription: """
+              An evergreen shrub growing to 3 metres (9.8 ft) high and 2 metres (6 ft 7 in) across. It has a closely arranged crown, with an erect stem and many branches. Both the branches and the leaves are covered in fine hairs. The leaves, which may be flat or crinkled, are large and broad with teeth around the edge. They can be 10–20 centimetres (3.9–7.9 in) long and 15 centimetres (5.9 in) wide.
+              
+              The leaves are coppery green with red splashes, giving them a mottled appearance. Separate male and female flowers appear on the same plant. The male flowers are in long spikes which hang downwards while the female flowers are in short spikes. The latter do not show up easily as they are often hidden among the leaves. The flower stalks are 10–20 cm long.
+              
+              The genus name Acalypha comes from the Greek name for nettles because of the nettle-like appearance of the leaves.  The specific epithet references Charles Wilkes.
+              
+              """
+        ),
         
         // 2. Adenanthera pavonina L.
         Plant(image: Image("ade"),
@@ -340,6 +358,109 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         ),
         
         // 23. Caryota mitis L.
+        Plant(
+            image: Image("hib"),
+            name: "Caryota mitis L.",
+            commonName: "Fishtail Plam.",
+            family: "Aracaceae.",
+            origin: "Native to India, Sri Lanka, Asia and the South Pacific, cultivated worldwide.",
+            location: "CDS, CEDS Garden.",
+            botanicalDescription: """
+            Caryota is a genus of palm trees. They are often known as fishtail palms because of the shape of their leaves. There are about 13 species. Fish tail palm is an invasive introduced species. They are also one of the few Arecaceae with bipinnate foliage. Many grow in mountainous areas and are adapted to warm mediterranean climates as well as subtropical and tropical climates.
+            
+            Fishtail palm has a unique way of flowering; a cluster of flowers emerge from the top of a mature palm, subsequent cluster emerge below and so on. When a final cluster reaches the ground, the stem dies and the plant continues to grow. A mature plant is 15-25ft tall and the canopy is about 10-15ft. One cousin of the plant Caryota urens, yields sap used to make an unrefined sugar called jaggery, and also to make palm wine.
+            """
+            ),
+        
+        // 24 Cassia fistula Linn.
+        Plant(
+            image: Image("hib"),
+            name: "Cassia fistula Linn.",
+            commonName: "Golden shower, Purging cassia, Pudding pipe tree.",
+            family: "Fabaceae (Caesalpinioideae).",
+            origin: "Native to southern Asia, It is the national tree and flower of Thailand Distributed around the world tropics.",
+            location: "CEDS Garden, Basketball court, CU Gate, Lecture Theatre.",
+            botanicalDescription: """
+            This is a moderate-sized, erect, deciduous tree. The leaves are pinnate smooth, and 30 to 40 centimeters long. The leaflets are 8 to 16 ovate, and average 10 centimeters in length. The flowers are borne in long lax racemes (30 to 50 centimeters long), and are fragrant, bright yellow on stalks, and 3 to 5 centimeters in length. The calyx is 6 to 8 millimeters long, smooth and deciduous. The petals are veined, obovate, 18 to 25 millimeters long, bright-yellow and short-clawed at the base. The stamens are all furnished with anthers, the 2 to 3 lower ones being longer. The pod is cylindric, 30 to 60 centimeters long, about 2.5 centimeters thick, pendulous, smooth, shining, and dark brown. The seeds are numerous, embedded in black, sweet pulp, completely separated by thin, transverse dissepiments, small, ovoid, slightly compressed, smooth, shining and yellowish brown.
+            
+            It is grown as a shade and ornamental tree. However, it has many other uses. Wood, which is red in colour, is hard and heavy, strong and durable and thus suitable for cabinet work, interior work, posts, wheels and mortar.
+            """
+            ),
+        
+        // 25 Cassia javanica L.
+        Plant(
+            image: Image("hib"),
+            name: "Cassia javanica L.",
+            commonName: "Pink Shower, Apple Blossom Tree.",
+            family: "Fabaceae (Caesalpinioideae).",
+            origin: "Native to the Malesian area. Exotic to Central and South America and tropical Africa.",
+            location: "CEDS Garden, Basketball court, CU Gate, Lecture Theatre.",
+            botanicalDescription: """
+            A small to medium-sized tree up to 25(-40) m tall, deciduous or semi-deciduous, trunk of young trees either smooth or armed with stump-remnants of branches. Leaves with 5-15(-20) pairs of leaflets, petiole 1.5-4 cm long, leaflets elliptical-ovate to oblong, 2.5-5 cm x 1.5-2.5 cm, base broadly rounded, apex acute or rounded to obtuse. Inflorescence a raceme or panicle, terminal on leafy shoots or lateral on short side branches, up to 16 cm long, and many-flowered. Flowers with sepals 4-10 mm long, green to dark red, petals 15-35 mm long and whitish to reddish or buff, stamens 10, 3 longer ones with filaments 2 cm long, 4 shorter with filaments about 1 cm long and 3 reduced wih filaments about 1 cm long and minute anthers.
+            
+            Fruit pendent, 20-60 cm long, 1-1.5(-2.5) cm in diameter, indehiscent. Seeds numerous, embedded in a flat disk. C. javanica trees show Troll's architectural model, with sympodial growth and all axes plagiotropic, the architecture being built by their continual superposition. Pink Shower is polymorphic and several subspecies are distinguished. It is grown as a shade and ornamental tree.
+            """
+            ),
+        
+        // 26 Casuarina equisetifolia
+        Plant(
+            image: Image("hib"),
+            name: "Casuarina equisetifolia L.",
+            commonName: " Australian-pine, Beefwood, Ironwood, She-oak, Horsetail tree.",
+            family: "Casuarinaceae.",
+            origin: "Native to Australia, south Pacific Islands, Southeast Asia.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            Australian-pine is a evergreen tree growing up to 46 m (150) tall, usually with single trunk and open, irregular crown. Bark reddish brown to gray, ough, brittle, peeling. Leaves reduced to tiny scales (needles), 6-8 in whorls encircling joints of branchlets.
+            
+            Flowers unisexual (monoecious), inconspicuous, female flowers in small axillary clusters, male flowers in small terminal spikes. Fruit tiny, one-seeded, winged nutlet (samara), formed in woody cone-like clusters (fruiting heads). Seeds brown, 2 cm (3/4 in) long and 1.3cm (1/2 in) wide. Casuarinas are sensitive to fire, loses branches easily and topples easily in high winds. The specific epithet equisetifolia is derived from the Latin equisetum, meaning "horse hair".
+            """
+            ),
+        
+        // 27 Ceiba pentandra (L.) Gaertn.
+        Plant(
+            image: Image("hib"),
+            name: "Ceiba pentandra (L.) Gaertn.",
+            commonName: "Java cotton, Java kapok, Silk cotton, Ceiba, Kapok.",
+            family: "Malvaceae.",
+            origin: "Native to Mexico, Central America and the Caribbean, Northern South America, and tropical West Africa.",
+            location: "Daniel hall, CEDS Garden, Geust house.",
+            botanicalDescription: """
+            Ceiba pentandra is a tropical tree of the order Malvales and the family Malvaceae (previously separated in the family Bombacaceae). Kapok is the most used common name for the tree and may also refer to the fibre obtained from its seed pods. It is a sacred symbol in Maya mythology. The tree grows to 60-70 m (200-230 ft) tall and has a very substantial trunk up to 3 m (10 ft) in diameter with buttresses. The trunk and many of the larger branches are often (but not always) crowded with very large, robust simple thorns.
+            
+            The leaves are compound of 5 to 9 leaflets, each up to 20 cm (8 in) and palm like. Adult trees produce several hundred 15 cm (6 in) seed pods. The pods contain seeds surrounded by a fluffy, yellowish fibre.
+            """
+            ),
+        
+        // 28 Chrysophyllum albidum G.Don.
+        Plant(
+            image: Image("hib"),
+            name: "Chrysophyllum albidum G.Don.",
+            commonName: "Cherry, Star apple.",
+            family: "Sapotaceae.",
+            origin: "Southern and Central Africa and widespread in West Africa.",
+            location: "Lecture Theatre.",
+            botanicalDescription: """
+            Chrysophyllum albidum is a small to medium buttressed tree species, up to 25-37 m in height, with a mature girth varying from 1.5 to 2 m. Bole is usually fluted, frequently free of branches. Bark thin, pale brownish-green, slash exuding white, gummy latex. Leaves are simple, dark green above, pale tawny below when young and silver-white below when mature, oblong-elliptic to elongate obovate elliptic.
+            
+            Flowers shortly pedicellate, in dense clusters in the leaf axils or from above the scars of fallen leaves. Fruits almost spherical, slightly pointed at the tip, about 3.2 cm in diameter, greenish-grey when immature, turning orange-red, yellow-brown or yellow, sometimes with speckles, 5 celled, with 5 brown seeds in yellowish, pleasantly acid pulp. Seeds 1-1.5 x 2 cm, beanlike, shiny when ripe, compressed, with one sharp edge and a star-shaped arrangement in the fruit.
+            """
+            ),
+        
+        // 29 Citrus spp
+        Plant(
+            image: Image("hib"),
+            name: "Citrus spp",
+            commonName: "Sweet orange, Orange, Batavian, Mozambique orange, Valencia orange, Tight-skinned orange.",
+            family: "Rutaceae.",
+            origin: "Native to China, Vietnam, cultivated and trades Worldwide.",
+            location: "",
+            botanicalDescription: """
+            Chrysophyllum albidum is a small to medium buttressed tree species, up to 25-37 m in height, with a mature girth varying from 1.5 to 2 m. Bole is usually fluted, frequently free of branches. Bark thin, pale brownish-green, slash exuding white, gummy latex. Leaves are simple, dark green above, pale tawny below when young and silver-white below when mature, oblong-elliptic to elongate obovate elliptic.
+            
+            Flowers shortly pedicellate, in dense clusters in the leaf axils or from above the scars of fallen leaves. Fruits almost spherical, slightly pointed at the tip, about 3.2 cm in diameter, greenish-grey when immature, turning orange-red, yellow-brown or yellow, sometimes with speckles, 5 celled, with 5 brown seeds in yellowish, pleasantly acid pulp. Seeds 1-1.5 x 2 cm, beanlike, shiny when ripe, compressed, with one sharp edge and a star-shaped arrangement in the fruit.
+            """
+            ),
         
         
         
