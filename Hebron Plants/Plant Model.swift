@@ -453,16 +453,169 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             name: "Citrus spp",
             commonName: "Sweet orange, Orange, Batavian, Mozambique orange, Valencia orange, Tight-skinned orange.",
             family: "Rutaceae.",
-            origin: "Native to China, Vietnam, cultivated and trades Worldwide.",
+            origin: "Native to China, Vietnam, cultivated and traded Worldwide.",
             location: "",
             botanicalDescription: """
-            Chrysophyllum albidum is a small to medium buttressed tree species, up to 25-37 m in height, with a mature girth varying from 1.5 to 2 m. Bole is usually fluted, frequently free of branches. Bark thin, pale brownish-green, slash exuding white, gummy latex. Leaves are simple, dark green above, pale tawny below when young and silver-white below when mature, oblong-elliptic to elongate obovate elliptic.
+            Citrus sp (C. sinensis) is a small, shallow-rooted evergreen shrub or tree about 6-13 m high with an enclosed conical top and mostly spiny branches. Twigs angled when young, often with thick spines leaves smooth, oval, 5-15 x 2-8 cm, dark green above, glossy, with a distinctive smell often similar to the fruit Its petiole winged flowers are small, waxy greenish and white fragrant; calyx broad saucer-shaped, with the five petals, white elliptic, 1.3-2.2 cm long.
             
-            Flowers shortly pedicellate, in dense clusters in the leaf axils or from above the scars of fallen leaves. Fruits almost spherical, slightly pointed at the tip, about 3.2 cm in diameter, greenish-grey when immature, turning orange-red, yellow-brown or yellow, sometimes with speckles, 5 celled, with 5 brown seeds in yellowish, pleasantly acid pulp. Seeds 1-1.5 x 2 cm, beanlike, shiny when ripe, compressed, with one sharp edge and a star-shaped arrangement in the fruit.
+            Fruits are orange, reddish-green to yellowish-green in colour, round, 4-12 diameter, consist of a leathery peel 6 mm thick, tightly adherent, protecting the juicy inner pulp, which is divided into segments that may not contain seeds, depending on the cultivar. The specific epithet (sinensis) refers to its Chinese origin.
+            """
+            ),
+        
+        // 30 Cocos nucifera L.
+        Plant(
+            image: Image("hib"),
+            name: "Cocos nucifera L.",
+            commonName: "Coconut, Copra Coconut palm.",
+            family: "Arecaceae.",
+            origin: "Native to coastal tropical Asia and the Pacific, tropical and subtropical areas around the world.",
+            location: "Geust house, Canaanland.",
+            botanicalDescription: """
+            The coconut palm is a large unbranched palm, growing up to 30 m (98 ft) tall, with a terminal crown of leaves. Old leaves break away cleanly, leaving the smooth, pale grey trunk with scars of leaf petioles. Trunk up to 40 cm in diameter with a swollen base up to 60cm. Coconuts may be tall or dwarf. Leaves are arranged spirally, pinnate leaves 4-6m (13-20 ft) long, and pinnae are 60-90cm long.
+            
+            Coconut palm is monoecious, the inflorescence consists of both female and male flowers, with the female flower being much larger than the male flower. Fruit a globose ovoid or ellipsoid drupe, 20-30 cm long. The mesocarp has numerous traditional and commercial uses, the husk and leaves are used for a variety of furniture and decorations. The term "coco" is derived from 16th-century Portuguese and Spanish meaning "head" or "skull", because of the three small holes on the coconut shell that resemble human facial features.
+            """
+            ),
+        
+        // 31 Cola millenii K.Schum.
+        Plant(
+            image: Image("hib"),
+            name: "Cola millenii K.Schum.",
+            commonName: "Kola, Monkey kola.",
+            family: "Sterculiaceae.",
+            origin: "Native to West Africa. Ivory Coast, Southern Nigeria, Ghana, Togo and Benin.",
+            location: "CEDS Garden.",
+            botanicalDescription: """
+            Monkey Kola is a shrub or tree up to 12 m high, occasionally 20 m with a low crown of arching branches, deciduous, of closed and transition forest.
+            
+            The leaves are 5-lobed, orbicular leaves, 10 cm long. The flowers are campanulate, pink to purple, about 1 cm diameter. The fruits form a cluster of 5-10 on a single stalk. Individual fruit is a pubescence (Hairy - velvetine), oblong sausage-like pod, with a groove running through its entire upper surface, where it opens to reveal two rows of about 20 seeds.
+            
+            The fruit is rusty green, and turns red to orange when ripe. The seeds are flattened and circular, with a mucilaginous outer layer that reveals a brown tough skin underneath, covering a cream coloured twin-half seed. It seed are mainly medicinal in use.
+            """
+            ),
+        
+        // 32 Cola spp
+        Plant(
+            image: Image("hib"),
+            name: "Cola spp",
+            commonName: "Cola, Cola nut, Goro (Hausa), Oji (Igbo), Obi gbanja (Yoruba).",
+            family: "Sterculiaceae.",
+            origin: "Native to West Africa. Exotic to Eastern to Central Africa, West Indies, USA.",
+            location: "Daniel hall, EIE",
+            botanicalDescription: """
+            Cola nitida or C. acuminata is an understorey, evergreen tree, generally growing 9-12 m high, sometimes reaching 27 m, with a diameter up to 1.5 m narrow buttresses extending for 1 m in old trees, or absent. Bole not always straight and cylindrical; bark grey or greyish brown, rough with longitudinal fissures; slash pinkish red, thick and fibrous, darkening to brown on exposure. Leaves simple, alternate, petiolate; petiole 1.2-10 cm long; blade broadly oblong to broadly elliptic or elliptic-oblanceolate.
+            
+            Inflorescence axillary, an irregularly branched panicles 5-10 cm long, shorter than the leaves; flowers unisexual, apetalous. Bisexual with male and female flowers. Fruits oblong-ellipsoid follicles 13 x 7 cm, green, shiny-surfaced, smooth to the touch but knobbly with large tubercules. Seeds 4-8 (10) per carpel, ovoid or subglobose 3-3.5 x 2-2.5 cm, either red or white.
+            """
+            ),
+        
+        // 33 Combretum platypterum (Welw.) Hutch. & Dalz.
+        Plant(
+            image: Image("hib"),
+            name: "Combretum platypterum (Welw.) Hutch. & Dalz.",
+            commonName: "",
+            family: "Combretaceae.",
+            origin: "Native to West Africa, extends to Angola, Congo and Upper Nile land.",
+            location: "CEDS Garden",
+            botanicalDescription: """
+            A straggling scandent shrub or forest liane; bracts and receptacle greyish-red or red; petals yellow to red; commonly found in secondary deciduous forest. The stem is relatively large, with brownish white bark, with apparent grooves.
+            
+            The leaves are glossy and form a cluster at the end of slender twiggy branchlets. The flowers are profuse and showy, yellow to red, followed by red pale green to dirty red fruits with four-lobed wings that aid their dispersal when mature and dried.
             """
             ),
         
         
+        // 34 Crescentia cujete L.
+        Plant(
+            image: Image("hib"),
+            name: "Crescentia cujete L.",
+            commonName: "Calabash-Tree, Ayale, Totumo.",
+            family: "Bignoniaceae.",
+            origin: "Native to tropical America widely cultivated throughout the tropical World.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            Calabash is an evergreen shrub or tree reaching 20 to 30 feet in height with a broad, irregular crown composed of long, spreading branches clothed in two to six-inch long bright green leaves, which create moderate, broad spreading open crown. There are enlarged nodes on the stout light brown or grey twigs.
+            
+            The two-inch-wide flowers are yellow/green with red or purple veins, cup-shaped, and appear to emerge directly from the branches. The fruit may be up to a foot in diameter, and while initially heavy with wet pulp and seeds, dries hard, remains smooth and becomes quite light, and hangs directly beneath the branches. Fruits are poisonous. Calabash is cultivated as an ornamental plant; the fruit when dried has a variety of uses as containers, handicrafts and musical instruments. Calabash is most outstanding in the landscape for its year-round production of flowers and fruit.
+            """
+            ),
+        
+        // 35 Cycas revoluta Thunb. (Location)
+        Plant(
+            image: Image("hib"),
+            name: "Cycas revoluta Thunb.",
+            commonName: "Calabash-Tree, Ayale, Totumo.Sago cycad, Sago palm, King Sago palm.",
+            family: "Cycadaceae.",
+            origin: "Southern Japan, cultivated worldwide.",
+            location: "",
+            botanicalDescription: """
+            Sago Palm, is not a palm at all, but a cycad. This very symmetrical plant supports a crown of shiny, dark green leaves on a thick shaggy trunk that is typically about 20 cm (7.9 in) in diameter, sometimes wider. The trunk is very low to subterranean in young plants but lengthens above ground with age. It can grow into very old specimens with 6-7 m (over 20 feet) of the trunk; however, the plant is very slow-growing and requires about 50-100 years to achieve this height. Trunks can branch multiple times, thus producing multiple heads of leaves.
+            
+            The leaves are a deep semi-glossy green and about 50-150 cm (20-59 in) long when the plants are of reproductive age. They grow out into a feather-like rosette to 1 m (3.3 ft) in diameter. The crowded, stiff, narrow leaflets are 8-18 cm (3.1-7.1 in) long and have strongly recurved or revolute edges. The basal leaflets become more like spines. The petiole or stems of the Sago cycad are 6-10 cm (2.4-3.9 in) long and have small protective barbs that must be avoided.
+            """
+            ),
+        
+        // 36 Delonix regia (Hook.) Raf.
+        Plant(
+            image: Image("hib"),
+            name: "Delonix regia (Hook.) Raf.",
+            commonName: "Flame of the Forest, Gold Mohar, Flamboyant flame tree.",
+            family: "Fabaceae (Caesalpinioideae).",
+            origin: "Native to Madagascar, Zambia, Exotic to tropical Africa, USA, and Tropical Asia.",
+            location: "Esther hall.",
+            botanicalDescription: """
+            Flame of the Forest is a tree 10-15 (max. 18) m high, attaining a the girth of up to 2 m; trunk large, buttressed and angled towards the base; bark smooth, greyish-brown, inner bark light brown; crown umbrella-shaped, spreading with long, nearly horizontal branches.
+            
+            Leaves are biparipinnate, alternate, light green, feathery, 20-60 cm long; with numerous stalkless leaflets. The inflorescence is a corymb 15-30 cm long, with loosely arranged, slightly fragrant flowers. The petals are orange-red, whitish inside with red spots and streaks. Fruits are green and flaccid when young, turning to dark brown, hard, woody indehiscent pods when mature. The pods hang down and remain attached most of the year. Hard, greyish, glossy, to 2 cm long, oblong seeds are horizontally partitioned in seed chambers. They are arranged at right angles to the length of the pod.
+            
+            Its common name flame of the forest is derived from its flame-red flowers covering the forest canopy when in bloom with a flaming look.
+            """
+            ),
+        
+        // 37 Dialium guineense Willd.
+        Plant(
+            image: Image("hib"),
+            name: "Dialium guineense Willd.",
+            commonName: "Tumble tree, Black velvet, Velvet tamarind.",
+            family: "Fabaceae (Caesalpinioideae).",
+            origin: "Native to Central and West Africa.",
+            location: "Lecture Theatre.",
+            botanicalDescription: """
+            Velvet tamarind is a tree 30m high, with adensely leafy crown, but often shrubby. Bole without buttresses, Bark smooth, grey; slash reddish, yielding a little red gum. Leaves sometimes finely hairy, with a common stalk 5-13 cm long, with an odd terminal leaflet and usually 2 pairs of opposite or alternate leaflets, the lower pair being somewhat smaller.
+            
+            Flowers usually whitish, in large terminal, or occasionally axillary, panicles. Fruits is more or less circular and flattened, sometimes almost globose, and densely velvety black. The seed has a hard glossy shell embedded in a dry, brownish, sweetly acidic, edible fruit pulp.
+            """
+            ),
+        
+        // 38 Duabanga grandiflora (Roxb. ex DC.) Walp.
+        Plant(
+            image: Image("hib"),
+            name: "Duabanga grandiflora (Roxb. ex DC.) Walp.",
+            commonName: "Duabanga, Lampati, Eight trees.",
+            family: "Lythraceae.",
+            origin: "Native to Eastern India and Southeast Asia.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            Duabanga grandiflora tree grows up to 30 m in height with sizeable buttresses. The trunk is erect, 40-80 feet high, undivided but sometimes forking from the base. In the wild (untrained), branching commences close to the base, it grows with a pyramidal outline, with long drooping branches. Sparingly branched, the branches are four-angled, loosely covered with large spreading leaves. 27-35 large leaves, 18-30cm long and 6-10 cm wide, are arranged alternately on the branches. Immature leaves are pinkish, turning yellow and dark green with age.
+            
+            The white, small flowers are arranged in clusters containing 3-20 flowers that grow at the ends of the branches. The fruit dry at maturity, is 2-4 cm long and 4-4.5 cm wide, contains many seeds. Seeds 4-6 mm long, without endosperm.
+            """
+            ),
+        
+        // 39 Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.
+        Plant(
+            image: Image("dypsis"),
+            name: "Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.",
+            commonName: "Areca palm, Golden cane palm, Yellow bamboo palm, Butterfly Palm.",
+            family: "Arecaceae.",
+            origin: "Native to Eastern Madagascar, grown worldwide.",
+            location: "Chapel, CUCRID, Diamond-Access.",
+            botanicalDescription: """
+            Areca palm typically grows to between 20 to 35 feet tall and has a crown spread of 10 to 20 feet. It is a multi-trunked palm, with up to 12 trunks. Whilst other clumping palms often have a main trunk and suckering stems Areca Palm grows individual trunks like bamboo canes. The leaves are arched, 2-3 m (6 ft 7 in-9 ft 10 in) long, and pinnate, with 40-60 pairs of leaflets. "Butterfly palm" refers to the leaves, which curve upwards in multiple stems to create a butterfly look.
+            
+            It bears panicles of yellow flowers, with stalks emerging from below the leaves and droop downward. Fruit is approximately 1 inch long and shaped like an egg, turns from yellow to dark purple or black as it matures. The species name lutescens is the Latin term for "growing yellow,". Areca palm is reputed to filter out xylene and toluene from the air.
+            """
+            ),
         
         
         // Old Data
