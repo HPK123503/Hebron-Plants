@@ -39,9 +39,9 @@ The fruits are flat, dehiscent, somewhat woody pod, 6.5cm long, 1.5cm wide, stro
         
         // Acalypha wilkesiana
         Plant(
-            image: Image("acacia"),
+            image: Image("aca"),
             name: "Acalypha wilkesiana",
-            commonName: "Starburr, Beefsteak plant, Red acalypha, copperleaf, Jacob’s coat, Fijian fire plant, Dangunro-gogoro, kaashinyaawo.",
+            commonName: "Starburr, Beefsteak plant, Fire dragon, Red acalypha, copperleaf, Jacob’s coat, Fijian fire plant, Jiwene and Jinwinini (Hausa), Aworoso (Yoruba).",
             family: "Euphorbiaceae",
             origin: "Native to Fiji and neighbouring South Pacific islands.",
             location: "Eagle's nest, ALDC.",
@@ -61,7 +61,7 @@ The fruits are flat, dehiscent, somewhat woody pod, 6.5cm long, 1.5cm wide, stro
               commonName: "Red sandalwood, Sandal beadtree.",
               family: "Fabaceae (Mimosoideae)",
               origin: "Found naturally in India, introduced into North and South America and West Africa.",
-              location: "Mary Hall, Joseph Hall, Lecture Theatre",
+              location: "Mary Hall, Joseph Hall, Lecture Theatre, CUCRID, CEDS.",
               botanicalDescription: """
 Adenanthera pavonina is a deciduous tree that reaches 60 m in height and up to 45 cm in girth. The trunk is basically straight with smooth bark and many fissures. The spreading crown has relatively few leaves. The leaves are bipinnate and 30 to 60 cm long with numerous oblong leaflets that are rounded on both ends and have a small point at the apex.
 
@@ -127,7 +127,7 @@ Flowers are subsessile, white or pink. Fruit (pod) is oblong, flat or somewhat t
              ),
         
         // 7. Alstonia boonei De Wild
-        Plant(image: Image(systemName: "photo"),
+        Plant(image: Image("Alstonia"),
               name: "Alstonia boonei De Wild",
               commonName: "Stool wood, Cheesewood, Pattern wood, Alstonia; Local Names: Egbu (Igbo) Awun (Yoruba).",
               family: "Apocynaceae.",
@@ -139,7 +139,7 @@ Alstonia boonei is a large deciduous tree, up to 45 m tall and 1.2m in diameter;
              ),
         
         // 8. Anacardium occidentale L.
-        Plant(image: Image(systemName: "photo"),
+        Plant(image: Image("ana"),
               name: "Anacardium occidentale L.",
               commonName: "Cashew, Cashew nut.",
               family: "Anacardiaceae.",
@@ -184,7 +184,7 @@ Flower color and characteristics are unknown. Fruit is a green oval, cone, of 3 
         
         // 11. Azadirachta indica L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("indica"),
             name: "Azadirachta indica L.",
             commonName: "Neem, Dongoyaro.",
             family: "Meliaceae.",
@@ -199,7 +199,7 @@ The flowers (white and fragrant) are arranged in a more-or-less drooping panicle
         
         // 12. Bambusa vulgaris Schrad.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("bamb"),
             name: "Bambusa vulgaris Schrad.",
             commonName: "Golden Bamboo, Bamboo, Kauayan-kiling",
             family: "Poaceae.",
@@ -214,25 +214,25 @@ The stems are also used for houses, bridges, furniture, The young shoots (labong
         
         // 13. Bauhinia monandra Kurz.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("monan"),
             name: "Bauhinia monandra Kurz.",
             commonName: "Butterfly bauhinia, Napoleon's plume, St.Thomas tree.",
             family: "Fabaceae (Caesalpinioideae).",
             origin: "Native to Southeastern Asia, cultivated in the tropical regions of the world.",
             location: "Mary Hall, Paul Hall.",
             botanicalDescription: """
-"Bauhinia monandra is a small, fast-growing, evergreen tree or shrub that commonly reaches 3 to 15.2 m in height and 0.5 m in diameter. Its smooth, gray bark can become scaly and reddish brown on older trees. The leaves of butterfly bauhinia are shaped like butterfly wings, rounded, and split one-third to one-half their length, forming two equal lobes. They are dissected by 11 or 13 main veins. The petioles extends into short awns between the leaf lobes. The plant grows well in moderate rainfall and well-drained soils. The species does not grow well on nutrient-poor sites.
+Bauhinia monandra is a small, fast-growing, evergreen tree or shrub that commonly reaches 3 to 15.2 m in height and 0.5 m in diameter. Its smooth, gray bark can become scaly and reddish brown on older trees. The leaves of butterfly bauhinia are shaped like butterfly wings, rounded, and split one-third to one-half their length, forming two equal lobes. They are dissected by 11 or 13 main veins. The petioles extends into short awns between the leaf lobes. The plant grows well in moderate rainfall and well-drained soils. The species does not grow well on nutrient-poor sites.
 """
         ),
         
         // 14. Bauhinia purpurea L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("pur"),
             name: "Bauhinia purpurea L.",
             commonName: "Purple bauhinia, Orchid tree, Camel's foot tree.",
             family: "Fabaceae (Caesalpinioideae).",
             origin: "Southeastern Asia.",
-            location: "EIE",
+            location: "EIE.",
             botanicalDescription: """
 Purple bauhinia is a small to medium-sized, deciduous, fast-growing shrub or tree with a round, symmetrical, moderate dense crown to 10 m tall. Leaves, simple, alternate, base rounded to shallow-cordate, up to 12 cm x 12 cm, deeply 2-lobed at apex, 7-12 cm long, and equally wide, margin entire and the surfaces smooth and glabrous, and 9- or 11- nerved at base, the apex lobes rounded or obtuse to subacute. Leaf blades 4.5-11 cm long.
 
@@ -242,12 +242,12 @@ Inflorescence is a 6-10-flowered raceme in terminal panicles; flowers numerous, 
         
         // 15. Bauhinia tomentosa L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("tom"),
             name: "Bauhinia tomentosa L.",
             commonName: " Variegated bauhinia, bell bauhinia, orchid tree, hairy bauhinia.",
             family: "Fabaceae (Caesalpinioideae).",
             origin: "Ethiopia, India, East and South Africa, Sri Lanka; Exotic, but well distributed in West Africa.",
-            location: "CUCRID, CEDS, CST, Daniel Hall",
+            location: "CUCRID, CEDS, CST, Daniel Hall.",
             botanicalDescription: """
 Bauhinia tomentosa is a scrambling, many-stemmed shrub or small tree reaching 4 m (max. 8) in height, with drooping branches. Bark grey and smooth or slightly hairy on young branches. Leaves deeply divided for almost half their lesoth, with a small apical appendage between the lobes.
 
@@ -257,7 +257,7 @@ Flowers bell-shaped, up to 7 cm long, distinctive, pendulous, solitary, with lar
         
         // 16. Bixa orellana L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("Bixa"),
             name: "Bixa orellana L.",
             commonName: "Achiote, Anatto, Achote, Lipstick plant.",
             family: "Bixaceae.",
@@ -270,22 +270,22 @@ Lipstick plant is an evergreen shrub or small tree up to 6(-8) m tall; trunk up 
         
         // 17. Blighia sapida Konig.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("sapida"),
             name: "Blighia sapida Konig.",
             commonName: "Breadfruit, Akee apple, Akee.",
             family: " Sapindaceae.",
             origin: "Native to Central and West Africa, exotic to West indies.",
             location: " ",
             botanicalDescription: """
-    Akee apple may reach 13 m high, with spreading crown and ribbed branchlets. Leaflets 2-5 pairs, the upper ones largest, obovate. Leaves oblong or subelliptic, acute to rounded base, 3-18 cm long, 2-8.5 cm broad, pubescent on the nerves beneath. Flowers bisexual, aromatic and greenish white in colour, borne on densely pubescent axillary racemes, 5-20 cm long.
+            Akee apple may reach 13 m high, with spreading crown and ribbed branchlets. Leaflets 2-5 pairs, the upper ones largest, obovate. Leaves oblong or subelliptic, acute to rounded base, 3-18 cm long, 2-8.5 cm broad, pubescent on the nerves beneath. Flowers bisexual, aromatic and greenish white in colour, borne on densely pubescent axillary racemes, 5-20 cm long.
 
-    There are two fruit bearing seasons between January-March and June- August. Fruit is capsule shaped, leather like pods contain a seed in each of 3 chambers or sections. A thick fleshy stalk, rich in oil, holds the seeds. When ripe, the fruit sections split and the seed becomes visible. The fruit turns red on reaching maturity and splits open with continued exposure to the sun. Seeds shiny black with a large yellow or whitish aril. The generic name Blighia honours Captain William Bligh who introduced the plant to the English scientific community at Kew in 1793.
+            There are two fruit bearing seasons between January-March and June- August. Fruit is capsule shaped, leather like pods contain a seed in each of 3 chambers or sections. A thick fleshy stalk, rich in oil, holds the seeds. When ripe, the fruit sections split and the seed becomes visible. The fruit turns red on reaching maturity and splits open with continued exposure to the sun. Seeds shiny black with a large yellow or whitish aril. The generic name Blighia honours Captain William Bligh who introduced the plant to the English scientific community at Kew in 1793.
 """
     ),
         
         // 18. Bougainvillea sp
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("boug"),
             name: "Bougainvillea sp",
             commonName: "Bougainvillea.",
             family: "Nyctaginaceae.",
@@ -315,22 +315,22 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 20. Calliandra surinamensis Benth.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("calian"),
             name: "Calliandra surinamensis Benth.",
             commonName: "Pink Powderpuff, Surinam powder puff.",
             family: "Fabaceae (Mimisoideae).",
             origin: "Native to Suriname, cultivated worldwide.",
             location: "Joseph Hall.",
             botanicalDescription: """
-        This multiple trunked, low-branching, evergreen shrub has silky leaflets which are glossy copper when new, turning to a dark metallic green. The profuse, fragrant bloom is the main reason for its popularity, with big puffs, two to three inches across, of watermelon pink and white silky stomens, produced during warm months. It grows up to a height of 15 fect; has evergreen bipinnate, oblong leaves and axillary, compound, showy pink flowers, like a powder puff. Surinam powder puff has dense foliage and is a fast grower. A flat pod, first green later brown, contains 5 - 6 seeds; it curls open to release brown seeds.
+            This multiple trunked, low-branching, evergreen shrub has silky leaflets which are glossy copper when new, turning to a dark metallic green. The profuse, fragrant bloom is the main reason for its popularity, with big puffs, two to three inches across, of watermelon pink and white silky stomens, produced during warm months. It grows up to a height of 15 fect; has evergreen bipinnate, oblong leaves and axillary, compound, showy pink flowers, like a powder puff. Surinam powder puff has dense foliage and is a fast grower. A flat pod, first green later brown, contains 5 - 6 seeds; it curls open to release brown seeds.
 
-        This plant is cultivated for its ornamental purposes; used for hedge; specimen; deck or patio; container or planter; trained as a standard; espalier; highway median. It can also be used for bonsai.
+            This plant is cultivated for its ornamental purposes; used for hedge; specimen; deck or patio; container or planter; trained as a standard; espalier; highway median. It can also be used for bonsai.
 """
         ),
         
         // 21. Calophyllum inophyllum L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("calo"),
             name: "Calophyllum inophyllum L.",
             commonName: "Alexandrian laurel, Beauty leaf, Bintangor, Kamani, Borneo-mahogany.",
             family: "Calophyllaceae (Clusiaceae).",
@@ -344,7 +344,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 22. Carica papaya L.
         Plant(
-            image: Image(systemName: "photo"),
+            image: Image("carica"),
             name: "Carica papaya L.",
             commonName: "Pawpaw, Papaya.",
             family: "Caricaceae.",
@@ -359,12 +359,12 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 23. Caryota mitis L.
         Plant(
-            image: Image("hib"),
+            image: Image("mitis"),
             name: "Caryota mitis L.",
             commonName: "Fishtail Plam.",
             family: "Aracaceae.",
             origin: "Native to India, Sri Lanka, Asia and the South Pacific, cultivated worldwide.",
-            location: "CDS, CEDS Garden.",
+            location: "CDS, CEDS, CUCRID.",
             botanicalDescription: """
             Caryota is a genus of palm trees. They are often known as fishtail palms because of the shape of their leaves. There are about 13 species. Fish tail palm is an invasive introduced species. They are also one of the few Arecaceae with bipinnate foliage. Many grow in mountainous areas and are adapted to warm mediterranean climates as well as subtropical and tropical climates.
             
@@ -379,7 +379,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Golden shower, Purging cassia, Pudding pipe tree.",
             family: "Fabaceae (Caesalpinioideae).",
             origin: "Native to southern Asia, It is the national tree and flower of Thailand Distributed around the world tropics.",
-            location: "CEDS Garden, Basketball court, CU Gate, Lecture Theatre.",
+            location: "CEDS, Basketball court, CU Gate, Lecture Theatre.",
             botanicalDescription: """
             This is a moderate-sized, erect, deciduous tree. The leaves are pinnate smooth, and 30 to 40 centimeters long. The leaflets are 8 to 16 ovate, and average 10 centimeters in length. The flowers are borne in long lax racemes (30 to 50 centimeters long), and are fragrant, bright yellow on stalks, and 3 to 5 centimeters in length. The calyx is 6 to 8 millimeters long, smooth and deciduous. The petals are veined, obovate, 18 to 25 millimeters long, bright-yellow and short-clawed at the base. The stamens are all furnished with anthers, the 2 to 3 lower ones being longer. The pod is cylindric, 30 to 60 centimeters long, about 2.5 centimeters thick, pendulous, smooth, shining, and dark brown. The seeds are numerous, embedded in black, sweet pulp, completely separated by thin, transverse dissepiments, small, ovoid, slightly compressed, smooth, shining and yellowish brown.
             
@@ -394,7 +394,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Pink Shower, Apple Blossom Tree.",
             family: "Fabaceae (Caesalpinioideae).",
             origin: "Native to the Malesian area. Exotic to Central and South America and tropical Africa.",
-            location: "CEDS Garden, Basketball court, CU Gate, Lecture Theatre.",
+            location: "Chapel.",
             botanicalDescription: """
             A small to medium-sized tree up to 25(-40) m tall, deciduous or semi-deciduous, trunk of young trees either smooth or armed with stump-remnants of branches. Leaves with 5-15(-20) pairs of leaflets, petiole 1.5-4 cm long, leaflets elliptical-ovate to oblong, 2.5-5 cm x 1.5-2.5 cm, base broadly rounded, apex acute or rounded to obtuse. Inflorescence a raceme or panicle, terminal on leafy shoots or lateral on short side branches, up to 16 cm long, and many-flowered. Flowers with sepals 4-10 mm long, green to dark red, petals 15-35 mm long and whitish to reddish or buff, stamens 10, 3 longer ones with filaments 2 cm long, 4 shorter with filaments about 1 cm long and 3 reduced wih filaments about 1 cm long and minute anthers.
             
@@ -419,12 +419,12 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 27 Ceiba pentandra (L.) Gaertn.
         Plant(
-            image: Image("hib"),
+            image: Image("ceiba"),
             name: "Ceiba pentandra (L.) Gaertn.",
             commonName: "Java cotton, Java kapok, Silk cotton, Ceiba, Kapok.",
             family: "Malvaceae.",
             origin: "Native to Mexico, Central America and the Caribbean, Northern South America, and tropical West Africa.",
-            location: "Daniel hall, CEDS Garden, Geust house.",
+            location: "Daniel hall, CEDS, CDS, Geust house.",
             botanicalDescription: """
             Ceiba pentandra is a tropical tree of the order Malvales and the family Malvaceae (previously separated in the family Bombacaceae). Kapok is the most used common name for the tree and may also refer to the fibre obtained from its seed pods. It is a sacred symbol in Maya mythology. The tree grows to 60-70 m (200-230 ft) tall and has a very substantial trunk up to 3 m (10 ft) in diameter with buttresses. The trunk and many of the larger branches are often (but not always) crowded with very large, robust simple thorns.
             
@@ -439,7 +439,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Cherry, Star apple.",
             family: "Sapotaceae.",
             origin: "Southern and Central Africa and widespread in West Africa.",
-            location: "Lecture Theatre.",
+            location: "Lecture Theatre, CDS.",
             botanicalDescription: """
             Chrysophyllum albidum is a small to medium buttressed tree species, up to 25-37 m in height, with a mature girth varying from 1.5 to 2 m. Bole is usually fluted, frequently free of branches. Bark thin, pale brownish-green, slash exuding white, gummy latex. Leaves are simple, dark green above, pale tawny below when young and silver-white below when mature, oblong-elliptic to elongate obovate elliptic.
             
@@ -484,7 +484,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Kola, Monkey kola.",
             family: "Sterculiaceae.",
             origin: "Native to West Africa. Ivory Coast, Southern Nigeria, Ghana, Togo and Benin.",
-            location: "CEDS Garden.",
+            location: "CEDS.",
             botanicalDescription: """
             Monkey Kola is a shrub or tree up to 12 m high, occasionally 20 m with a low crown of arching branches, deciduous, of closed and transition forest.
             
@@ -501,7 +501,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Cola, Cola nut, Goro (Hausa), Oji (Igbo), Obi gbanja (Yoruba).",
             family: "Sterculiaceae.",
             origin: "Native to West Africa. Exotic to Eastern to Central Africa, West Indies, USA.",
-            location: "Daniel hall, EIE",
+            location: "Daniel hall, EIE.",
             botanicalDescription: """
             Cola nitida or C. acuminata is an understorey, evergreen tree, generally growing 9-12 m high, sometimes reaching 27 m, with a diameter up to 1.5 m narrow buttresses extending for 1 m in old trees, or absent. Bole not always straight and cylindrical; bark grey or greyish brown, rough with longitudinal fissures; slash pinkish red, thick and fibrous, darkening to brown on exposure. Leaves simple, alternate, petiolate; petiole 1.2-10 cm long; blade broadly oblong to broadly elliptic or elliptic-oblanceolate.
             
@@ -516,7 +516,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "",
             family: "Combretaceae.",
             origin: "Native to West Africa, extends to Angola, Congo and Upper Nile land.",
-            location: "CEDS Garden",
+            location: "CEDS",
             botanicalDescription: """
             A straggling scandent shrub or forest liane; bracts and receptacle greyish-red or red; petals yellow to red; commonly found in secondary deciduous forest. The stem is relatively large, with brownish white bark, with apparent grooves.
             
@@ -557,7 +557,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 36 Delonix regia (Hook.) Raf.
         Plant(
-            image: Image("hib"),
+            image: Image("delonix"),
             name: "Delonix regia (Hook.) Raf.",
             commonName: "Flame of the Forest, Gold Mohar, Flamboyant flame tree.",
             family: "Fabaceae (Caesalpinioideae).",
@@ -574,7 +574,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // 37 Dialium guineense Willd.
         Plant(
-            image: Image("hib"),
+            image: Image("dialum"),
             name: "Dialium guineense Willd.",
             commonName: "Tumble tree, Black velvet, Velvet tamarind.",
             family: "Fabaceae (Caesalpinioideae).",
