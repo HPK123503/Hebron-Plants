@@ -41,7 +41,7 @@ The fruits are flat, dehiscent, somewhat woody pod, 6.5cm long, 1.5cm wide, stro
         Plant(
             image: Image("aca"),
             name: "Acalypha wilkesiana",
-            commonName: "Starburr, Beefsteak plant, Red acalypha, copperleaf, Jacob’s coat, Fijian fire plant, Dangunro-gogoro, kaashinyaawo.",
+            commonName: "Starburr, Beefsteak plant, Fire dragon, Red acalypha, copperleaf, Jacob’s coat, Fijian fire plant, Jiwene and Jinwinini (Hausa), Aworoso (Yoruba).",
             family: "Euphorbiaceae",
             origin: "Native to Fiji and neighbouring South Pacific islands.",
             location: "Eagle's nest, ALDC.",
@@ -61,7 +61,7 @@ The fruits are flat, dehiscent, somewhat woody pod, 6.5cm long, 1.5cm wide, stro
               commonName: "Red sandalwood, Sandal beadtree.",
               family: "Fabaceae (Mimosoideae)",
               origin: "Found naturally in India, introduced into North and South America and West Africa.",
-              location: "Mary Hall, Joseph Hall, Lecture Theatre",
+              location: "Mary Hall, Joseph Hall, Lecture Theatre, CUCRID, CEDS.",
               botanicalDescription: """
 Adenanthera pavonina is a deciduous tree that reaches 60 m in height and up to 45 cm in girth. The trunk is basically straight with smooth bark and many fissures. The spreading crown has relatively few leaves. The leaves are bipinnate and 30 to 60 cm long with numerous oblong leaflets that are rounded on both ends and have a small point at the apex.
 
@@ -221,7 +221,7 @@ The stems are also used for houses, bridges, furniture, The young shoots (labong
             origin: "Native to Southeastern Asia, cultivated in the tropical regions of the world.",
             location: "Mary Hall, Paul Hall.",
             botanicalDescription: """
-"Bauhinia monandra is a small, fast-growing, evergreen tree or shrub that commonly reaches 3 to 15.2 m in height and 0.5 m in diameter. Its smooth, gray bark can become scaly and reddish brown on older trees. The leaves of butterfly bauhinia are shaped like butterfly wings, rounded, and split one-third to one-half their length, forming two equal lobes. They are dissected by 11 or 13 main veins. The petioles extends into short awns between the leaf lobes. The plant grows well in moderate rainfall and well-drained soils. The species does not grow well on nutrient-poor sites.
+Bauhinia monandra is a small, fast-growing, evergreen tree or shrub that commonly reaches 3 to 15.2 m in height and 0.5 m in diameter. Its smooth, gray bark can become scaly and reddish brown on older trees. The leaves of butterfly bauhinia are shaped like butterfly wings, rounded, and split one-third to one-half their length, forming two equal lobes. They are dissected by 11 or 13 main veins. The petioles extends into short awns between the leaf lobes. The plant grows well in moderate rainfall and well-drained soils. The species does not grow well on nutrient-poor sites.
 """
         ),
         
@@ -277,9 +277,9 @@ Lipstick plant is an evergreen shrub or small tree up to 6(-8) m tall; trunk up 
             origin: "Native to Central and West Africa, exotic to West indies.",
             location: " ",
             botanicalDescription: """
-    Akee apple may reach 13 m high, with spreading crown and ribbed branchlets. Leaflets 2-5 pairs, the upper ones largest, obovate. Leaves oblong or subelliptic, acute to rounded base, 3-18 cm long, 2-8.5 cm broad, pubescent on the nerves beneath. Flowers bisexual, aromatic and greenish white in colour, borne on densely pubescent axillary racemes, 5-20 cm long.
+            Akee apple may reach 13 m high, with spreading crown and ribbed branchlets. Leaflets 2-5 pairs, the upper ones largest, obovate. Leaves oblong or subelliptic, acute to rounded base, 3-18 cm long, 2-8.5 cm broad, pubescent on the nerves beneath. Flowers bisexual, aromatic and greenish white in colour, borne on densely pubescent axillary racemes, 5-20 cm long.
 
-    There are two fruit bearing seasons between January-March and June- August. Fruit is capsule shaped, leather like pods contain a seed in each of 3 chambers or sections. A thick fleshy stalk, rich in oil, holds the seeds. When ripe, the fruit sections split and the seed becomes visible. The fruit turns red on reaching maturity and splits open with continued exposure to the sun. Seeds shiny black with a large yellow or whitish aril. The generic name Blighia honours Captain William Bligh who introduced the plant to the English scientific community at Kew in 1793.
+            There are two fruit bearing seasons between January-March and June- August. Fruit is capsule shaped, leather like pods contain a seed in each of 3 chambers or sections. A thick fleshy stalk, rich in oil, holds the seeds. When ripe, the fruit sections split and the seed becomes visible. The fruit turns red on reaching maturity and splits open with continued exposure to the sun. Seeds shiny black with a large yellow or whitish aril. The generic name Blighia honours Captain William Bligh who introduced the plant to the English scientific community at Kew in 1793.
 """
     ),
         
@@ -322,9 +322,9 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             origin: "Native to Suriname, cultivated worldwide.",
             location: "Joseph Hall.",
             botanicalDescription: """
-        This multiple trunked, low-branching, evergreen shrub has silky leaflets which are glossy copper when new, turning to a dark metallic green. The profuse, fragrant bloom is the main reason for its popularity, with big puffs, two to three inches across, of watermelon pink and white silky stomens, produced during warm months. It grows up to a height of 15 fect; has evergreen bipinnate, oblong leaves and axillary, compound, showy pink flowers, like a powder puff. Surinam powder puff has dense foliage and is a fast grower. A flat pod, first green later brown, contains 5 - 6 seeds; it curls open to release brown seeds.
+            This multiple trunked, low-branching, evergreen shrub has silky leaflets which are glossy copper when new, turning to a dark metallic green. The profuse, fragrant bloom is the main reason for its popularity, with big puffs, two to three inches across, of watermelon pink and white silky stomens, produced during warm months. It grows up to a height of 15 fect; has evergreen bipinnate, oblong leaves and axillary, compound, showy pink flowers, like a powder puff. Surinam powder puff has dense foliage and is a fast grower. A flat pod, first green later brown, contains 5 - 6 seeds; it curls open to release brown seeds.
 
-        This plant is cultivated for its ornamental purposes; used for hedge; specimen; deck or patio; container or planter; trained as a standard; espalier; highway median. It can also be used for bonsai.
+            This plant is cultivated for its ornamental purposes; used for hedge; specimen; deck or patio; container or planter; trained as a standard; espalier; highway median. It can also be used for bonsai.
 """
         ),
         
@@ -364,7 +364,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             commonName: "Fishtail Plam.",
             family: "Aracaceae.",
             origin: "Native to India, Sri Lanka, Asia and the South Pacific, cultivated worldwide.",
-            location: "CDS, CEDS.",
+            location: "CDS, CEDS, CUCRID.",
             botanicalDescription: """
             Caryota is a genus of palm trees. They are often known as fishtail palms because of the shape of their leaves. There are about 13 species. Fish tail palm is an invasive introduced species. They are also one of the few Arecaceae with bipinnate foliage. Many grow in mountainous areas and are adapted to warm mediterranean climates as well as subtropical and tropical climates.
             
