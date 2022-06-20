@@ -524,7 +524,6 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             """
             ),
         
-        
         // 34 Crescentia cujete L.
         Plant(
             image: Image("hib"),
@@ -616,6 +615,186 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             It bears panicles of yellow flowers, with stalks emerging from below the leaves and droop downward. Fruit is approximately 1 inch long and shaped like an egg, turns from yellow to dark purple or black as it matures. The species name lutescens is the Latin term for "growing yellow,". Areca palm is reputed to filter out xylene and toluene from the air.
             """
             ),
+        
+        // 40 Elaeis guineensis Jacq. // Location
+        Plant(
+            image: Image("ela"),
+            name: "Elaeis guineensis Jacq.",
+            commonName: "African oil palm, Oil palm.",
+            family: "Arecaceae.",
+            origin: "West Africa, China, Central America, India, East Africa, Madagascar, South East Asia.",
+            location: "Health Center, Playground.",
+            botanicalDescription: """
+            Oil palm is a handsome tree reaching a height of 20 m or more at maturity. The trunk is characterized by persistent, spirally arranged leaf bases and bears a crown of 20-40 massive leaves. Leaves are numerous, erect, spreading to drooping, long, reaching 3-5 m in adult trees. Male and female inflorescences occur on one plant; sometimes a single inflorescence contains both male and female flowers. Inflorescences arise among the leaf bases in large, very dense clusters, with innumerable small flowers, enclosed in the bud stage in 2 large fibrous bracts, which finally become deciduous.
+            
+            Fruits are borne in bunches of between 200 and 2000 sessile ovoid drupes, per bunch. The fruit coat colour varies from yellow to orange or nearly black. Four oil palm varieties have been distinguished on the basis of the fruit structure. The generic name comes from the Greek word 'elaion' (oil), reffering to the oil extracted from the palm.
+            """
+            ),
+        
+        // 41 Ficus auriculata //Image
+        Plant(
+            image: Image(" "),
+            name: "Ficus auriculata Lour.",
+            commonName: "Elephant ear fig, Broad leaf fig.",
+            family: "Moraceae.",
+            origin: "Native to India, Nepal, China and Southeast Asia, grown in the tropics.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            Ficus auriculata is a small evergreen tree that grows to 8 m (24 ft) tall, with a bunchy pyramidal crown of densely green large leaves. Leaves are simple, broad, widely ellipsoid to obovate with clear venation. The leaves extend from the branches giving a bushy canopy, that droops down towards the base of the tree. Clusters of large round figs 3inches wide, 1 inch long on trunk and older branches. Its uses differ with regions of cultivation.
+
+            """
+            ),
+        
+        // 42 Ficus benjamina L.
+        Plant(
+            image: Image(" "),
+            name: "Ficus benjamina L.",
+            commonName: "Weeping Fig, Benjamin's Fig, Ficus Tree, Yellow bush.",
+            family: "Moraceae.",
+            origin: "Native to South East Asia and Australia cultivated worldwide.",
+            location: "CMSS garden, John hall.",
+            botanicalDescription: """
+            Weeping fig, it is a topiary tree reaching 30 metres (98 ft) tall in natural conditions, with gracefully drooping branchlets and glossy leaves 6-13 cm (2-5 in) long, oval with an acuminate tip. In its native range, its small fruit are a favorite food of some birds. In tropical latitudes, the Weeping Fig makes a very large and stately tree for parks and other urban situations, such as wide roads.
+            
+            It is a very popular house plant in temperate areas, due to its elegant growth and tolerance of poor growing conditions; it does best under bright, sunny conditions but will also tolerate considerable shade. The leaves are very sensitive to small changes in light. When it is turned around or re-located it reacts by dropping many of its leaves and replacing them with new leaves adapted to the new light intensity.
+            """
+            ),
+        
+        // 43 Ficus elastica Roxb.
+        Plant(
+            image: Image(" "),
+            name: "Ficus elastica Roxb.",
+            commonName: "Rubber fig, Rubber plant, India rubber fig, Rubber bush.",
+            family: "Moraceae.",
+            origin: "Native to the Himalayas to Malaysia, Sumatra and Java, widely grown in the tropics.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            Rubber fig is a large, broadleaf evergreen shrub or tree that may grow 30-40 m (98-130 ft) tall with a stout trunk up to 2 m (6.6 ft) in diameter. The trunk develops banyan-like aerial and buttressing roots to anchor it in the soil and help support heavy branches. It has broad shiny oval leaves 10-35 cm (3.9-14 in) long and 5-15 cm (2.0-5.9 in) broad; leaf size is largest on young plants and smaller on old trees (10 cm long).
+            
+            The rubber plant does not produce highly colourful or fragrant flowers. The fruit is a small yellow-green oval fig, barely edible; contain viable seed where the relevant fig wasp species is present. It is as an ornamental plant. Rubber plant is reported be effective at removing Volatile Organic Compound (VOC) like formaldehyde from the air.
+            
+            """
+            ),
+        
+        // 44 Ficus exasperata Vahl.
+        Plant(
+            image: Image(" "),
+            name: "Ficus exasperata Vahl.",
+            commonName: "Sandpaper (leaf) tree, White fig tree.",
+            family: "Moraceae.",
+            origin: "India, East Africa, Arabia and Sri Lanka.",
+            location: "Canaanland.",
+            botanicalDescription: """
+            An arborescent tree 21m high, trunk 50 cm diameter, deciduous but restricted to the drier parts of the evergreen forest and in secondary jungle. The trunk and bark are pale, greenish, lenticellate.
+            
+            Young branchlets are terete, with stout white scabrid hairs. Leaves simple, alternate, spiral; stipule in pairs, lateral, caducous and leaving scar; petiole 1-6cm long, with stout white scabrid hairs; lamina, broadly elliptic to obovate, apex abruptly acuminate, base.
+            
+            Inflorescence syconia, axillary, solitary and scabrid. Flowers unisexual; peduncle to 1.5 cm. The fruit is syconium, obovoid, up to 1.5 cm long, yellow or purple when ripe.
+            """
+            ),
+        
+        // 45 Ficus lyrata Warb.
+        Plant(
+            image: Image(" "),
+            name: "Ficus lyrata Warb.",
+            commonName: "Fiddle-leaf Fig, Banjo Fig.",
+            family: "Moraceae.",
+            origin: "West Africa, from Nigeria to Sierra Leone, exotic to other parts of the world.",
+            location: "CDS, Lecture Theatre.",
+            botanicalDescription: """
+            The fiddle leaf is a fig that commonly starts life as an epiphyte high in the crown of another tree. It then sends roots down to the ground which envelop the trunk of the host tree and slowly strangles it. It can also grow as a free-standing tree on its own, growing up to 12-15 m (40-50 ft) tall. The leaves are variable in shape, but often with a broad apex and narrow middle, resembling a fiddle.
+            
+            The fruit is a green fig 2.5-3 cm (1-14in) diameter. It is a popular ornamental tree in subtropical and tropical gardens, and is also grown as a houseplant, where it usually stays shorter when put into pots than when grown outdoors. Its main horticultural feature is its large leaves, shaped somewhat like a lyre. Like most figs, it is frost tender. It can exist as a strangler or solitary plant.
+            """
+            ),
+        
+        // 46 Ficus maclellandii King.
+        Plant(
+            image: Image(" "),
+            name: "Ficus maclellandii King.",
+            commonName: "Alii fig, Narrow leaf fig, Banana leaf fig, Willow fig, Long leaf fig.",
+            family: "Moraceae.",
+            origin: "Native to Java, Philippines, South east Asia, grown in the tropics.",
+            location: "CDS, Lecture Theatre.",
+            botanicalDescription: """
+            Alii fig is an evergreen often grown as a houseplant in temperate climates. It can be found in many forms, including bushes, braids, standards and spiraled trunks. It can grow free on the ground to be 3m (10ft) tall, with a dense canopy, drooping over the almost concealed branches and numerous prop roots. Its long narrow willow-like leaves are 8-25 cm and uniquely dimorphic; with narrow leaves on the lower, sterile branches and broader leaves on the higher branches; create a drooping affect on its branches.
+            
+            Alii fig is an ornamental and is reported be effective at removing Volatile Organic Compound (VOC) from the air.
+            """
+            ),
+        
+        // 47 Ficus mucuso Welw. ex Ficalho.
+        Plant(
+            image: Image(" "),
+            name: "Ficus mucuso Welw. ex Ficalho.",
+            commonName: "Mucuso fig.",
+            family: "Moraceae.",
+            origin: "Native to Central and West Africa.",
+            location: "CDS, Lecture Theatre.",
+            botanicalDescription: """
+            Tree up to 40 m tall, terrestrial, with a luxuriant crown. The trunk is smooth and non-leathery, with little bark. Younger branches have a greenish brown texture that present a watery look from afar. Buttress arises at very later stage. Leaves are elliptic to subcordiform, chartaceous, apex shortly acuminate, base cordate, both surfaces scabrous, puberulous; 6-17 x 4-15 cm in size, with clear lateral veins and a 2-9cm long, puberulous petiole with brown hairs.
+            
+            The fruit - fig is subtended on a 40 cm long branchlets on the main branches and trunk. The figs are globose to obovoid in shape, 2.5-4 cm (fresh), puberulous, red-orange colour, with the characteristic fig smell; with a 3-5 mm long basal bract.
+            """
+            // Conservation Status: Probably Threatened.
+            ),
+        
+        // 48 Ficus natalensis leprieurii (Miquel) C.C. //Not sure about location
+        Plant(
+            image: Image(" "),
+            name: "Ficus natalensis leprieurii (Miquel) C.C. Berg.",
+            commonName: "Natal fig.",
+            family: "Moraceae.",
+            origin: "Native to Central and West Africa.",
+            location: "Lecture Theatre.",
+            botanicalDescription: """
+            A tree of about 30m in height; or a shrub, hemi-epiphytic or secondarily terrestrial, sometimes semi-scandent; majorly as a strangler in secondary forest. The elliptic leaves of the Natal Fig are arranged spirally, alternate or sub-opposite and are quite variable. Dark green, smooth and thinly leathery leaves of F. natalensis spp lepieurii are characteristically triangular in shape.
+            
+            The small fruit turn from dark green to yellow - red at maturity. The figs occur from March to January, are axillary on terminal branchlets and are either smooth or slightly hairy. Seeds are tiny inside the fruit and are distributed by birds and other animals that feed on the figs.
+            """
+            // Conservation Status: Probably Threatened.
+            ),
+        
+        // 49 Ficus sp
+        Plant(
+            image: Image(" "),
+            name: "Ficus sp",
+            commonName: "Fig.",
+            family: "Moraceae.",
+            origin: "Native to Central and West Africa.",
+            location: " ",
+            botanicalDescription: """
+            Like most fig, the plant can grow solitary, but mostly as a strangler on several type of plants. The leaves are ellipsoid with characteristic latex from the leaves and stem.
+            
+            They form stranglers on plant species like Irvingia gabonensis, Elaeis guineensis.
+            """
+            // Conservation Status: Probably Threatened.
+            ),
+        
+        // 50 Ficus sycomorus L.
+        Plant(
+            image: Image(" "),
+            name: "Ficus sycomorus L.",
+            commonName: "Sycamore fig, Fig-mulberry..",
+            family: "Moraceae.",
+            origin: "Native to Africa south of the Sahel, Lebanon, Southern Arabia Peninsula, Madagascar, cultivated worldwide.",
+            location: "Dorcas hall.",
+            botanicalDescription: """
+            Ficus sycomorus, is a fig species that has been cultivated since ancient times. (Sycamore has been used for a variety of plants.). Ficus sycomorus grows to 20 m tall and 6 m wide with a dense round crown of spreading branches. The leaves are heart-shaped with a round apex, 14 cm long by 10 cm wide, and arranged spirally around the twig. They are dark green above and lighter with prominent yellow veins below, and both surfaces are rough to the touch. The bark is green-yellow to orange and exfoliates in papery strips to reveal the yellow inner bark. Like all other figs, it contains latex.
+            
+            The fruit is a large and edible fig, 2-3 cm in diameter, ripening from buff-green to yellow or red. They are borne in thick clusters on long branchlets or the leaf axil. Flowering and fruiting occurs year-round, peaking from July to December.
+            """
+            // Conservation Status: Probably Threatened.
+            ),
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         // Old Data
