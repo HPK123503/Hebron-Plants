@@ -323,10 +323,10 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             location: "Joseph Hall.",
             botanicalDescription: """
             This multiple trunked, low-branching, evergreen shrub has silky leaflets which are glossy copper when new, turning to a dark metallic green. The profuse, fragrant bloom is the main reason for its popularity, with big puffs, two to three inches across, of watermelon pink and white silky stomens, produced during warm months. It grows up to a height of 15 fect; has evergreen bipinnate, oblong leaves and axillary, compound, showy pink flowers, like a powder puff. Surinam powder puff has dense foliage and is a fast grower. A flat pod, first green later brown, contains 5 - 6 seeds; it curls open to release brown seeds.
-
+            
             This plant is cultivated for its ornamental purposes; used for hedge; specimen; deck or patio; container or planter; trained as a standard; espalier; highway median. It can also be used for bonsai.
-"""
-        ),
+            """
+            ),
         
         // 21. Calophyllum inophyllum L.
         Plant(
@@ -775,7 +775,7 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         Plant(
             image: Image(" "),
             name: "Ficus sycomorus L.",
-            commonName: "Sycamore fig, Fig-mulberry..",
+            commonName: "Sycamore fig, Fig-mulberry.",
             family: "Moraceae.",
             origin: "Native to Africa south of the Sahel, Lebanon, Southern Arabia Peninsula, Madagascar, cultivated worldwide.",
             location: "Dorcas hall.",
