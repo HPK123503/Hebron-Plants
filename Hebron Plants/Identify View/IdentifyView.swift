@@ -22,6 +22,7 @@ struct IdentifyView: View {
             VStack {
                 Image(systemName: "photo")
                     .resizable()
+                    .foregroundColor(Color("g"))
                     .frame(width: 270, height: 270)
                     .overlay(
                         Group {
@@ -80,7 +81,7 @@ struct IdentifyView: View {
                 }
                 //.padding()
                 .buttonStyle(.bordered)
-                .tint(.green)
+                .tint(Color("b"))
                 .onTapGesture {
                     isPresenting = true
                     sourceType = .photoLibrary
@@ -96,7 +97,7 @@ struct IdentifyView: View {
                 }
                 //.padding(, 9.0)
                 .buttonStyle(.bordered)
-                .tint(.green)
+                .tint(Color("b"))
                 .onTapGesture {
                     isPresenting = true
                     sourceType = .camera
