@@ -37,30 +37,18 @@ struct PlantDetailView: View {
                                     Spacer()
                                 }
                                 
-                                //Family
-                                HStack {
-                                    Text("Family:")
-                                        .fontWeight(.medium)
-                                        .foregroundColor(Color.black)
-                                        .padding(.vertical, 2)
-                                    
-                                    Text(plant.family)
-                                        .foregroundColor(Color.black)
-                                        .lineSpacing(8.0)
-                                        .opacity(0.6)
-                                }
                                 
-                                //Common Name
+                                //Disease Name
                                 VStack(alignment: .leading) {
                                     HStack {
-                                        Text("Common Name:")
+                                        Text("Disease Name:")
                                             .fontWeight(.medium)
                                             .foregroundColor(Color.black)
                                             .padding(.vertical, 1.0)
                                         
                                     }
                                     
-                                    Text(plant.commonName)
+                                    Text(plant.diseaseName)
                                         .foregroundColor(Color.black)
                                         .fixedSize(horizontal: false, vertical: true)
                                         .lineSpacing(8.0)
@@ -68,60 +56,24 @@ struct PlantDetailView: View {
                                 }
                                 .padding(.vertical, 8)
                                 
-                                //Origin
+                                // Control
                                 VStack(alignment: .leading) {
                                     HStack {
-                                        Text("Origin:")
+                                        Text("Control:")
                                             .fontWeight(.medium)
                                             .foregroundColor(Color.black)
                                             .padding(.vertical, 1.0)
                                         
                                     }
                                     
-                                    Text(plant.origin)
-                                        .foregroundColor(Color.black)
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .lineLimit(6)
-                                        .lineSpacing(8.0)
-                                        .opacity(0.6)
-                                }
-                                .padding(.vertical, 8)
-                                
-                                //Location
-                                VStack(alignment: .leading) {
-                                    HStack {
-                                        Text("Location:")
-                                            .fontWeight(.medium)
-                                            .foregroundColor(Color.black)
-                                            .padding(.vertical, 1.0)
-                                        
-                                    }
-                                    
-                                    Text(plant.location)
+                                    Text(plant.control)
                                         .foregroundColor(Color.black)
                                         .fixedSize(horizontal: false, vertical: true)
                                         .lineSpacing(8.0)
                                         .opacity(0.6)
                                 }
                                 .padding(.vertical, 8)
-                                
-                                // Botanical Description
-                                VStack(alignment: .leading) {
-                                    HStack {
-                                        Text("Botanical Description:")
-                                            .fontWeight(.medium)
-                                            .foregroundColor(Color.black)
-                                            .padding(.vertical, 1.0)
-                                        
-                                    }
-                                    
-                                    Text(plant.botanicalDescription)
-                                        .foregroundColor(Color.black)
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        .lineSpacing(8.0)
-                                        .opacity(0.6)
-                                }
-                                .padding(.vertical, 8)
+                               
                                 
                             }
                             .padding()
@@ -141,3 +93,76 @@ struct PlantDetailView_Previews: PreviewProvider {
         PlantDetailView(plant: Plant.all[0])
     }
 }
+
+
+/*
+ 
+ //Incidence
+ VStack(alignment: .leading) {
+     HStack {
+         Text("Incidence:")
+             .fontWeight(.medium)
+             .foregroundColor(Color.black)
+             .padding(.vertical, 1.0)
+         
+     }
+     
+     Text(plant.incidence)
+         .foregroundColor(Color.black)
+         .fixedSize(horizontal: false, vertical: true)
+         .lineLimit(6)
+         .lineSpacing(8.0)
+         .opacity(0.6)
+ }
+ .padding(.vertical, 8)
+ 
+ 
+ //Location
+ VStack(alignment: .leading) {
+     HStack {
+         Text("Location:")
+             .fontWeight(.medium)
+             .foregroundColor(Color.black)
+             .padding(.vertical, 1.0)
+         
+     }
+     
+     Text(plant.location)
+         .foregroundColor(Color.black)
+         .fixedSize(horizontal: false, vertical: true)
+         .lineSpacing(8.0)
+         .opacity(0.6)
+ }
+ .padding(.vertical, 8)
+ 
+ // Botanical Description
+ VStack(alignment: .leading) {
+     HStack {
+         Text("Botanical Description:")
+             .fontWeight(.medium)
+             .foregroundColor(Color.black)
+             .padding(.vertical, 1.0)
+         
+     }
+     
+     Text(plant.botanicalDescription)
+         .foregroundColor(Color.black)
+         .fixedSize(horizontal: false, vertical: true)
+         .lineSpacing(8.0)
+         .opacity(0.6)
+ }
+ .padding(.vertical, 8)
+ 
+ //Control
+ HStack {
+     Text("Control:")
+         .fontWeight(.medium)
+         .foregroundColor(Color.black)
+         .padding(.vertical, 2)
+     
+     Text(plant.control)
+         .foregroundColor(Color.black)
+         .lineSpacing(8.0)
+         .opacity(0.6)
+ }
+ */

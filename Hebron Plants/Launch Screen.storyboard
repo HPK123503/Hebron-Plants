@@ -23,13 +23,13 @@
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <color key="highlightedColor" name="dd"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.macro.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4j9-pQ-r1A">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.macro.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4j9-pQ-r1A">
                                 <rect key="frame" x="37" y="157" width="301" height="300"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" red="0.82745098039999998" green="0.89411764709999997" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.67843137249999996" green="0.76078431369999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4j9-pQ-r1A" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="37" id="LZ1-Kw-sM2"/>
                             <constraint firstItem="4j9-pQ-r1A" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-26.5" id="MWS-Ng-wwL"/>
@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="camera.macro.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="camera.macro.circle" catalog="system" width="128" height="121"/>
         <namedColor name="dd">
             <color red="0.9570000171661377" green="0.96100002527236938" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
