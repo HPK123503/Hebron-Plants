@@ -24,7 +24,7 @@ extension Plant {
         
         // 1. Tomatoes Early Blight (Alternaria solani)
         Plant(
-            image: Image("dypsis"),
+            image: Image("tom1"),
             name: "Tomato (Early Blight)",
             diseaseName: "Early Blight (Alternaria solani).",
             control: """
@@ -34,7 +34,7 @@ extension Plant {
         
         // 2. Tomato Damping Off
         Plant(
-            image: Image("dypsis"),
+            image: Image("tom2"),
             name: "Tomato (Damping Off)",
             diseaseName: "Damping Off (Pythium aphanidermatum).",
             control: "Seed treatment with fungal culture Trichoderma viride (4 g/kg of seed) or Thiram (3 g/kg of seed) is the only preventive measure to control the pre-emergence damping off. Soil drenching of the affected seedlings with Dithane M45 (3 g/litre of water) helps to reduce the disease incidence."
@@ -42,7 +42,7 @@ extension Plant {
         
         // 3. Maize Maize with Nitrogen deficiency
         Plant(
-            image: Image("dypsis"),
+            image: Image("maiN"),
             name: "Maize (Nitrogen deficiency)",
             diseaseName: "Maize with Nitrogen deficiency.",
             control: """
@@ -58,7 +58,7 @@ extension Plant {
         
         // 4. Maize Potassium Deficiency
         Plant(
-            image: Image("dypsis"),
+            image: Image("maiK"),
             name: "Maize (Potassium Deficiency)",
             diseaseName: "Potassium Deficiency.",
             control: "To correct a deficiency, Spread organic mulch beneath plants and apply potassium fertilizer, preferably slow-release forms such as potassium silicate or sulfur- or polymer-coated potassium products. Potassium sulfate may be used, and potassium will be held by organic matter and clay particles."
@@ -66,7 +66,7 @@ extension Plant {
         
         // 5. Potato Early Blight (Alternaria solani)
         Plant(
-            image: Image("dypsis"),
+            image: Image("pot1"),
             name: "Potato (Early Blight)",
             diseaseName: "Early Blight (Alternaria solani).",
             control:"""
@@ -78,7 +78,7 @@ extension Plant {
    
         // 6. Potato Bacterial Leaf Spot
         Plant(
-            image: Image("dypsis"),
+            image: Image("pot2"),
             name: "Potato (Bacterial Leaf Spot)",
             diseaseName: "Bacterial Leaf Spot (Xanthomonas campestris pv. vesicatoria).",
             control: "Apply sulfur sprays or copper-based fungicides weekly at first sign of disease to prevent its spread. These organic fungicides will not kill leaf spot, but prevent the spores from germinating."
