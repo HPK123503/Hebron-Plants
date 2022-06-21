@@ -13,6 +13,7 @@
 		0448F6952848C5DB00569532 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6942848C5DB00569532 /* Classifier.swift */; };
 		0448F6972848C64D00569532 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6962848C64D00569532 /* ImagePicker.swift */; };
 		0448F6A12848D99600569532 /* Testing 1 copy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */; };
+		04C4781628627C8800952FB4 /* Plant Disease Identifier .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04C4781528627C8800952FB4 /* Plant Disease Identifier .mlmodel */; };
 		04E7299128429FB1009C9646 /* Hebron_PlantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */; };
 		04E7299328429FB1009C9646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7299228429FB1009C9646 /* ContentView.swift */; };
 		04E7299528429FB2009C9646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7299428429FB2009C9646 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		0448F6942848C5DB00569532 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		0448F6962848C64D00569532 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Testing 1 copy.mlmodel"; sourceTree = "<group>"; };
+		04C4781528627C8800952FB4 /* Plant Disease Identifier .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Plant Disease Identifier .mlmodel"; sourceTree = "<group>"; };
 		04E7298D28429FB1009C9646 /* Deo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hebron_PlantsApp.swift; sourceTree = "<group>"; };
 		04E7299228429FB1009C9646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				04E7299628429FB2009C9646 /* Preview Content */,
 				04E7299428429FB2009C9646 /* Assets.xcassets */,
 				04E729A82842A0DC009C9646 /* Plant Model.swift */,
+				04C4781528627C8800952FB4 /* Plant Disease Identifier .mlmodel */,
 				0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */,
 				04288D03285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel */,
 				04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */,
@@ -212,6 +215,7 @@
 				0448F6A12848D99600569532 /* Testing 1 copy.mlmodel in Sources */,
 				04E729A32842A05F009C9646 /* TabBar.swift in Sources */,
 				04E729A52842A085009C9646 /* DirectoryTabBarView.swift in Sources */,
+				04C4781628627C8800952FB4 /* Plant Disease Identifier .mlmodel in Sources */,
 				04288D04285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel in Sources */,
 				04E7299328429FB1009C9646 /* ContentView.swift in Sources */,
 				04E729AF2842A16C009C9646 /* PlantDetailView.swift in Sources */,
