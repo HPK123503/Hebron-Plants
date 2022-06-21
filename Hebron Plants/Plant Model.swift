@@ -14,9 +14,6 @@ struct Plant: Identifiable {
     let name: String
     let diseaseName: String
     let control: String
-    //let incidence: String
-    //let location: String
-    //let botanicalDescription: String
 }
 
 extension Plant {
@@ -86,3 +83,7 @@ extension Plant {
        
     ]
 }
+
+//let incidence: String
+//let location: String
+//let botanicalDescription: String
