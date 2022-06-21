@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04259EC92846ECE700D3DC0E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */; };
+		04288D04285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04288D03285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel */; };
 		0448F6932848C59200569532 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6922848C59200569532 /* ImageClassifier.swift */; };
 		0448F6952848C5DB00569532 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6942848C5DB00569532 /* Classifier.swift */; };
 		0448F6972848C64D00569532 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448F6962848C64D00569532 /* ImagePicker.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		04288D03285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "DefenseData 1 copy 1.mlmodel"; sourceTree = "<group>"; };
 		0448F6922848C59200569532 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		0448F6942848C5DB00569532 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		0448F6962848C64D00569532 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				04E7299428429FB2009C9646 /* Assets.xcassets */,
 				04E729A82842A0DC009C9646 /* Plant Model.swift */,
 				0448F6A02848D99600569532 /* Testing 1 copy.mlmodel */,
+				04288D03285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel */,
 				04259EC82846ECE700D3DC0E /* Launch Screen.storyboard */,
 				04E7299028429FB1009C9646 /* Hebron_PlantsApp.swift */,
 				04E7299228429FB1009C9646 /* ContentView.swift */,
@@ -209,6 +212,7 @@
 				0448F6A12848D99600569532 /* Testing 1 copy.mlmodel in Sources */,
 				04E729A32842A05F009C9646 /* TabBar.swift in Sources */,
 				04E729A52842A085009C9646 /* DirectoryTabBarView.swift in Sources */,
+				04288D04285FD94400E75DC5 /* DefenseData 1 copy 1.mlmodel in Sources */,
 				04E7299328429FB1009C9646 /* ContentView.swift in Sources */,
 				04E729AF2842A16C009C9646 /* PlantDetailView.swift in Sources */,
 				04E729B92842A484009C9646 /* IdentifyView.swift in Sources */,

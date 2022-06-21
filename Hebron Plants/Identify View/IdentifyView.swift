@@ -20,8 +20,9 @@ struct IdentifyView: View {
         VStack  {
             
             VStack {
-                Image(systemName: "photo")
+                Image(systemName: "rectangle.and.paperclip")
                     .resizable()
+                    .foregroundColor(Color("gg"))
                     .frame(width: 270, height: 270)
                     .overlay(
                         Group {
@@ -38,7 +39,7 @@ struct IdentifyView: View {
                 Group {
                     if let imageClass = classifier.imageClass {
                         HStack{
-                            Text("Plant Name:")
+                            Text("Name of Disease:")
                                 .font(.caption)
                                 .fontWeight(.heavy)
                                 .foregroundColor(Color.black)
@@ -53,7 +54,7 @@ struct IdentifyView: View {
                         }
                     } else {
                         HStack{
-                            Text("Plant Name: NA")
+                            Text("Name of Disease: N/A")
                                 .font(.caption)
                                 .fixedSize(horizontal: false, vertical: true)
                         }
@@ -80,7 +81,7 @@ struct IdentifyView: View {
                 }
                 //.padding()
                 .buttonStyle(.bordered)
-                .tint(.green)
+                .tint(Color("gg"))
                 .onTapGesture {
                     isPresenting = true
                     sourceType = .photoLibrary
@@ -96,7 +97,7 @@ struct IdentifyView: View {
                 }
                 //.padding(, 9.0)
                 .buttonStyle(.bordered)
-                .tint(.green)
+                .tint(Color("gg"))
                 .onTapGesture {
                     isPresenting = true
                     sourceType = .camera
@@ -105,7 +106,7 @@ struct IdentifyView: View {
                 
             }
             
-            //Spacer()
+            Spacer()
         }
         .sheet(isPresented: $isPresenting){
             ImagePicker(uiImage: $uiImage, isPresenting:  $isPresenting, sourceType: $sourceType)
@@ -129,19 +130,6 @@ struct IdentifyView_Previews: PreviewProvider {
 }
 
 
-
-
-// Classify Button
-
-//Button("Classify") {
-//    // classify the image here
-//    //self.performImageClassification()
-//
-//}.padding()
-//    .foregroundColor(Color.white)
-//    .background(Color.green)
-//    .cornerRadius(8)
-
 struct ResultText: View {
     @State private var result: String = " "
     var body: some View {
@@ -156,3 +144,13 @@ struct ResultText: View {
     }
 }
 
+// Classify Button
+
+//Button("Classify") {
+//    // classify the image here
+//    //self.performImageClassification()
+//
+//}.padding()
+//    .foregroundColor(Color.white)
+//    .background(Color.green)
+//    .cornerRadius(8)

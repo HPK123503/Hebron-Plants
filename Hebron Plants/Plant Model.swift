@@ -617,6 +617,23 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
             """
             ),
         
+        // 40 Elaeis guineensis Jacq.
+        Plant(
+            image: Image("dypsis"),
+            name: "Elaeis guineensis Jacq.",
+            commonName: "African oil palm, Oil palm.",
+            family: "Arecaceae.",
+            origin: "West Africa, China, Central America, India, East Africa, Madagascar, South East Asia.",
+            location: "Chapel, CUCRID, Diamond-Access.",
+            botanicalDescription: """
+            Oil palm is a handsome tree reaching a height of 20 m or more at maturity. The trunk is characterized by persistent, spirally arranged leaf bases and bears a crown of 20-40 massive leaves. Leaves are numerous, erect, spreading to drooping, long, reaching 3-5 m in adult trees. Male and female inflorescences occur on one plant; sometimes a single inflorescence contains both male and female flowers. Inflorescences arise among the leaf bases in large, very dense clusters, with innumerable small flowers, enclosed in the bud stage in 2 large fibrous bracts, which finally become deciduous.
+            
+            Fruits are borne in bunches of between 200 and 2000 sessile ovoid drupes, per bunch. The fruit coat colour varies from yellow to orange or nearly black. Four oil palm varieties have been distinguished on the basis of the fruit structure. The generic name comes from the The Greek word 'elaion' (oil), refers to the oil extracted from the palm.
+
+            """
+            ),
+        
+        
         
         // Old Data
         Plant(

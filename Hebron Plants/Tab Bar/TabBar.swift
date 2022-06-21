@@ -21,7 +21,7 @@ struct TabBar: View {
                     Label("Directory", systemImage: "book.closed")
                 }
         }
-        .accentColor(.green)
+        .accentColor(Color("gg"))
         //.background(Color("colour"))
     }
 }
