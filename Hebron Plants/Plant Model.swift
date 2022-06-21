@@ -799,22 +799,6 @@ The name Bougainvillea comes from Louis Antoine de Bougainville, a French naviga
         
         // Old Data
         Plant(
-            image: Image(systemName: "photo"),
-            name: "Caryota mitis L.",
-            commonName: "Fishtail Plam.",
-            family: "Aracaceae.",
-            origin: "Native to India, Sri Lanka, Asia and the South Pacific, cultivated worldwide.",
-            location: "CDS.",
-            botanicalDescription: """
-        Caryota is a genus of palm trees. They are often known as fishtail palms because of the shape of their leaves. There are about 13 species. Fish tail palm is an invasive introduced species. They are also one of the few Arecaceae with bipinnate foliage. Many grow in mountainous areas and are adapted to warm mediterranean climates as well as subtropical and tropical climates. Fishtail palm has a unique way of flowering; a cluster of flowers emerge from the top of a
-        mature palm, subsequent cluster emerge below and so on. When a final cluster reaches the
-        ground, the stem dies and the plant continues to grow. A mature plant is 15-25ft tall and
-        the canopy is about 10-15ft. One cousin of the plant Caryota urens, yields sap used to
-        make an unrefined sugar called jaggery, and also to make palm wine.
-"""
-        ),
-        
-        Plant(
             image: Image("dark"),
             name: "Carica papaya",
             commonName: "Paw paw",
