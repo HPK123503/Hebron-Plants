@@ -47,4 +47,4 @@ Feel free to reach out to me on [Linkedin](https://bit.ly/AdewaleSanusi) or on [
 
 <!-- - [Installing Hebron Plants](#installing-hebron-plants) -->
 
-                                                                                             [🔝](#hebron-plants)
+[🔝](#hebron-plants)
