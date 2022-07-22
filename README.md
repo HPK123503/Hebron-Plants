@@ -1,5 +1,7 @@
 # Hebron Plants
 
+![App UI](/UI.png)
+
 Identify plants in Covenant University with ease!
 
 Hebron Plants is an iOS, iPadOS and macOS app that identifies plants in Covenant University.<br> It has a directory which shows you the plants' name, family, common name, botanical description and location in Covenant University.
